@@ -17,7 +17,11 @@
 */
 
 $numero = 150;
-$string = "string";
+$string = "juan hola";
+
+echo $string."<br>";
 
 echo gettype($numero)."<br>";
-echo gettype($string);
+echo gettype($string)."<br>";
+
+var_dump($string);
