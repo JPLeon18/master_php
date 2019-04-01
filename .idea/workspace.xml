@@ -1,40 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4376e3ab-057b-4d4d-a690-c0bb22274c0f" name="Default" comment="se llega hasta la primera parte de los ejercicios">
-      <change beforePath="" afterPath="$PROJECT_DIR$/11-ejercicios/ejercicio2.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/11-ejercicios/ejercicio3.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/11-ejercicios/ejercicio4.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/11-ejercicios/ejercicio5.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/11-ejercicios/ejercicio6.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/11-ejercicios/ejercicio7.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/12-funciones/index.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/12-funciones/predefinidas.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/12-funciones/variables.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/13-include/contacto.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/13-include/includes/footer.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/13-include/includes/header.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/13-include/index.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/13-include/sobremi.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/14-arrays/index.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/15-ejercicios/ejercicio1.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/15-ejercicios/ejercicio2.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/15-ejercicios/ejercicio3.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/15-ejercicios/ejercicio4.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/15-ejercicios/ejercicio5.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/15-ejercicios/tabla_juegos/accion.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/15-ejercicios/tabla_juegos/arrays.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/15-ejercicios/tabla_juegos/aventura.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/15-ejercicios/tabla_juegos/deportes.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/15-ejercicios/tabla_juegos/ejercicio6.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/16-sesiones/index.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/16-sesiones/loguot.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/16-sesiones/page1.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/17-cookies/borrar_cookie.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/17-cookies/crear_cookie.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/17-cookies/ver_cookie.php" />
+    <list default="true" id="4376e3ab-057b-4d4d-a690-c0bb22274c0f" name="Default" comment="Se termina la parte de las cookies">
+      <change beforePath="" afterPath="$PROJECT_DIR$/18-formularios/index.php" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/11-ejercicios/ejercicio1.php" afterPath="$PROJECT_DIR$/11-ejercicios/ejercicio1.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -106,6 +75,7 @@
         <option value="$PROJECT_DIR$/17-cookies/borrar_cookie.php" />
         <option value="$PROJECT_DIR$/17-cookies/crear_cookie.php" />
         <option value="$PROJECT_DIR$/17-cookies/ver_cookie.php" />
+        <option value="$PROJECT_DIR$/18-formularios/index.php" />
       </list>
     </option>
   </component>
@@ -118,7 +88,7 @@
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="1912" />
-    <option name="y" value="87" />
+    <option name="y" value="296" />
     <option name="width" value="455" />
     <option name="height" value="728" />
   </component>
@@ -190,7 +160,7 @@
       <workItem from="1551288188362" duration="13680000" />
       <workItem from="1551705739948" duration="54034000" />
       <workItem from="1552569366287" duration="4866000" />
-      <workItem from="1552578411819" duration="32188000" />
+      <workItem from="1552578411819" duration="36191000" />
     </task>
     <task id="LOCAL-00001" summary="se realiza desde 1 al 4">
       <created>1551305877195</created>
@@ -213,14 +183,21 @@
       <option name="project" value="LOCAL" />
       <updated>1551738527525</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Se termina la parte de las cookies">
+      <created>1553689725124</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1553689725124</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="105080000" />
+    <option name="totallyTimeSpent" value="109083000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="87" width="1382" height="744" extended-state="6" />
+    <frame x="1912" y="296" width="1382" height="744" extended-state="6" />
     <layout>
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2647504" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -252,7 +229,8 @@
     <MESSAGE value="se realiza desde 1 al 4" />
     <MESSAGE value="se realiza desde 1 al 5 constantes" />
     <MESSAGE value="se llega hasta la primera parte de los ejercicios" />
-    <option name="LAST_COMMIT_MESSAGE" value="se llega hasta la primera parte de los ejercicios" />
+    <MESSAGE value="Se termina la parte de las cookies" />
+    <option name="LAST_COMMIT_MESSAGE" value="Se termina la parte de las cookies" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -394,13 +372,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="20" column="47" lean-forward="false" selection-start-line="20" selection-start-column="47" selection-end-line="20" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plantilla.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="9" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -582,10 +553,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/17-cookies/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/16-sesiones/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="22" lean-forward="true" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+        <state relative-caret-position="198">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -606,7 +585,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/17-cookies/index.php">
+    <entry file="file://$PROJECT_DIR$/17-cookies/crear_cookie.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="72" lean-forward="false" selection-start-line="14" selection-start-column="72" selection-end-line="14" selection-end-column="72" />
+          <folding>
+            <element signature="e#8#121#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/17-cookies/ver_cookie.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="10" lean-forward="false" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/17-cookies/borrar_cookie.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
@@ -614,28 +611,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/17-cookies/crear_cookie.php">
+    <entry file="file://$PROJECT_DIR$/plantilla.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="18" column="31" lean-forward="false" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
-          <folding>
-            <element signature="e#8#121#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/17-cookies/borrar_cookie.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="22" lean-forward="true" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="9" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/17-cookies/ver_cookie.php">
+    <entry file="file://$PROJECT_DIR$/18-formularios/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        <state relative-caret-position="216">
+          <caret line="12" column="46" lean-forward="false" selection-start-line="12" selection-start-column="46" selection-end-line="12" selection-end-column="46" />
           <folding />
         </state>
       </provider>
