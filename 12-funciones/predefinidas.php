@@ -24,6 +24,7 @@ if (is_string($nombre)){
     echo "es de tipo String";
 }
 
+// Quitar espacios
 echo "<br>";
 $hola = "   Hola   ";
 var_dump(trim($hola));
