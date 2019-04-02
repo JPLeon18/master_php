@@ -2,6 +2,7 @@
 
 $peliculas = array("batman", "marvel", "capitan america", "iron man");
 
+
 $personas = array(
 
     "nombre" => "juan",

@@ -16,6 +16,15 @@
         <label for="apellido">Apellido: </label>
         <input type="text" name="apellido" >
     </p>
+    <p>
+        <label for="archivo">Subir imagen</label>
+        <input type="file">
+    </p>
+
+    <select name="sexo" id="">
+        <option value="hombre">Hombre</option>
+        <option value="mujer">Mujer</option>
+    </select>
 
 </body>
 </html>
