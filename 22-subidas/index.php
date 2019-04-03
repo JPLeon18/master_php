@@ -14,16 +14,31 @@
             
 
             if(!empty($_GET['message'])){
-                $color = $_GET['color'];
-                echo "<strong style='background: $color; color: white; width: 50%; padding: 5px; border-radius: 10px; font-size: small'> Mensage: ".$_GET['message']."</strong><br><br>";
+                echo "<strong style='background: #ffcc00; color: black; width: 50%; padding: 5px; border-radius: 10px; font-size: small'> Mensage: ".$_GET['message']."</strong><br><br>";
             }
         ?>
 
         <label for="imagen">Imagen: </label><br>
         <input type="file" name="imagen"><br><br>
-
+        
         <input type="submit" value="enviar">
+
     </form>
 
+    <?php 
+        $gestor = opendir("./imagenes"); // Abrir el directorio
+            
+        if($gestor):
+            echo "<h2>Mostrar imagenes</h2>";           
+            echo "<p>clic en la imagen para eliminarla</p>";
+            while(($imagen = readdir($gestor)) != false):
+                if($imagen != "." && $imagen != ".."):
+                    echo "<a href='delete.php?imagen=$imagen'><img src='imagenes/$imagen' width='200px'/></a><br>";
+                endif;
+            endwhile;
+        endif;
+    ?>
+
+    
 </body>
 </html>

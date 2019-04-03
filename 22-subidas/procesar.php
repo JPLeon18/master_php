@@ -7,11 +7,7 @@ $tipo = $archivo["type"];
 $size = $archivo["size"];
 $rutaTemporal = $archivo["tmp_name"];
 
-var_dump($archivo);
 
-echo $nombre."<br>";
-echo $tipo."<br>";
-echo $size."<br>";
 
 if ($tipo == "image/jpeg" || $tipo == "image/jpg" || $tipo == "image/png" || $tipo == "image/gif"){
 
@@ -23,13 +19,11 @@ if ($tipo == "image/jpeg" || $tipo == "image/jpg" || $tipo == "image/png" || $ti
 
     move_uploaded_file($rutaTemporal, $ruta.$nombre);
 
-    echo "<h2>♡ Imagen Subida</h2>";
-
+    echo "<h2>Imagen Subida</h2>";
     $message = "imagen subida correctamente puedes buscarlo en la ruta $ruta";
-    header("Refresh: 5; URL=index.php?message=$message");
+    header("Refresh: 2; URL=index.php?message=$message");
 
 }else{
     $message = "╳ Solo puedes subir imagenes!!";
-    $color = "#cccccc";
-    header("location: index.php?message=$message&color=$color");
+    header("location: index.php?message=$message");
 }
