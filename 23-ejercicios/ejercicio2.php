@@ -1,32 +1,37 @@
 <?php
 
-function ValidarEmail($email){
-    // validar email
-    if(!is_string($email) || !filter_var($email, FILTER_VALIDATE_EMAIL)){
-        $EmailValido = false;
-    }else{
-        $EmailValido = true;
-    }
-    return $EmailValido;
+function validarEmail($email){
+        if (!is_string($email) || !filter_var($email, FILTER_VALIDATE_EMAIL)){
+            $emailValido = false;
+        }else{
+            $emailValido = true;
+        }
+
+        return $emailValido;
 }
 
-if(isset($_GET['email'])){
-    $email = $_GET['email'];
+if (isset($_GET['email'])) {
 
-
-    if(ValidarEmail($email) == true){
-        echo "<strong style='background: green; color:#ffffff; padding: 3px; border-radius: 5px;'>El Email valido es ".$email."</strong><br><br>";
-    }else{
-        echo "<strong style='background: red; color:#ffffff; padding: 3px; border-radius: 5px;'>el email no es valido</strong><br><br>";
+    if (validarEmail($_GET['email'])) {
+        echo "<h2 style='color: white; background: green; width: 40%;'>El email " . $_GET['email'] . " es valido</h2>";
+    } else {
+        echo "<h2 style='color: white; background: red; width: 20%;'>El email No es valido</h2>";
     }
+
+}else{
+    echo "<h2>ingrese un correo</h2>";
 }
+
+
 
 ?>
 
-<form action="ejercicio2.php" method="GET">
-    <label for="email">Email</label><br>
-    <input type="text" name="email"><br>
-    <input type="submit" value="validar email">
+<form action="ejercicio2.php"method="get">
+
+    <input type="text" name="email">
+    <input type="submit" value="Validar el email">
+
 </form>
+
 
 

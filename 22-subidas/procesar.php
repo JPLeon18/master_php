@@ -18,10 +18,10 @@ if ($tipo == "image/jpeg" || $tipo == "image/jpg" || $tipo == "image/png" || $ti
     $ruta = "imagenes/";
 
     move_uploaded_file($rutaTemporal, $ruta.$nombre);
-
-    echo "<h2>Imagen Subida</h2>";
+    echo "<h2>Imagen subida correctamente</h2>";
+    echo "<p>Redireccionando...</p>";
     $message = "imagen subida correctamente puedes buscarlo en la ruta $ruta";
-    header("Refresh: 2; URL=index.php?message=$message");
+    header("Refresh: 3; URL=index.php?message=$message"); // Se pone Refresh: 3; para refrescar la pagina en los 3 segundos e ir a la url
 
 }else{
     $message = "╳ Solo puedes subir imagenes!!";

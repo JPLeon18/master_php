@@ -1,3 +1,25 @@
+<?php
+
+if(isset($_POST['n1']) && isset($_POST['n2'])){
+
+    $n1 = $_POST['n1'];
+    $n2 = $_POST['n2'];
+
+
+    if (isset($_POST['suma'])){
+        echo "la suma es ".($n1+$n2);
+    }elseif(isset($_POST['resta'])){
+        echo "la resta es ".($n1-$n2);
+    }elseif (isset($_POST['multiplicacion'])){
+        echo "la multiplicacion es ".($n1*$n2);
+    }elseif (isset($_POST['division'])){
+        echo "la division es ".($n1/$n2);
+    }
+
+}
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,9 +30,10 @@
 </head>
 <body>
 
-        <form action="procesar.php" method="POST">
-            <input type="number" name="n1">
-            <input type="number" name="n2">
+        <form action="" method="POST">
+            <br>
+            <input type="number" name="n1"><br><br>
+            <input type="number" name="n2"><br><br>
 
             <input type="submit" name="suma" value="suma">
             <input type="submit" name="resta" value="resta">

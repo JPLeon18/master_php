@@ -1,26 +1,23 @@
 <?php
 session_start();
 
-if(!isset($_SESSION['MiSession'])){
-    $_SESSION['MiSession'] = 0;
+
+if (!isset($_SESSION['SESION'])){
+    $_SESSION['SESION'] = 0;
 }
 
+if (isset($_GET['counter']) && $_GET['counter'] == 1){
+    $_SESSION['SESION']++;
 
-if(isset($_GET['counter']) && $_GET['counter'] == 1){
-
-    $_SESSION['MiSession']++;
-
-}elseif(isset($_GET['counter']) && $_GET['counter'] == 0){
-
-    $_SESSION['MiSession']--;
+}elseif(isset($_GET['counter']) && $_GET['counter']== 0){
+    $_SESSION['SESION']--;
 
 }else{
-    echo "introduce el valor";
+    echo "<h1>aumente o decremente</h1>";
 }
+
 ?>
 
-<p>Valor de la session: <?=$_SESSION['MiSession']?></p>
-
-<a href="ejercicio1.php?counter=1">aumenta</a>
-<a href="ejercicio1.php?counter=0">resta</a>
-
+<p>el valor es : <?=  $_SESSION['SESION'] ?></p>
+<a href="ejercicio1.php?counter=1">aumentar</a><br>
+<a href="ejercicio1.php?counter=0">decrementar</a>
