@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4376e3ab-057b-4d4d-a690-c0bb22274c0f" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/SQL/01-tablas/crear_tabla.sql" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/SQL/02-modificar-tablas/modificar.sql" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SQL/03-diseno/blog.sql" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -42,11 +41,31 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="modificar.sql" pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="blog.sql" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/SQL/03-diseno/blog.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="crear_tabla.sql" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SQL/01-tablas/crear_tabla.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="112">
+              <caret line="7" column="2" lean-forward="false" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="modificar.sql" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SQL/02-modificar-tablas/modificar.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
+            <state relative-caret-position="0">
               <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="31" />
               <folding />
             </state>
@@ -68,7 +87,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/07-superglobales/recibir.php" />
         <option value="$PROJECT_DIR$/08-condicionales/index.php" />
         <option value="$PROJECT_DIR$/09-bucles/index.php" />
         <option value="$PROJECT_DIR$/10-bucleFor/index.php" />
@@ -119,6 +137,7 @@
         <option value="$PROJECT_DIR$/23-ejercicios/ejercicio3/ejercicio3.php" />
         <option value="$PROJECT_DIR$/SQL/01-tablas/crear_tabla.sql" />
         <option value="$PROJECT_DIR$/SQL/02-modificar-tablas/modificar.sql" />
+        <option value="$PROJECT_DIR$/SQL/03-diseno/blog.sql" />
       </list>
     </option>
   </component>
@@ -151,6 +170,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -158,22 +178,16 @@
               <item name="Master_php" type="b2602c69:ProjectViewProjectNode" />
               <item name="Master_php" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
-            <path>
-              <item name="Master_php" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Master_php" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="SQL" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
@@ -221,7 +235,10 @@
       <workItem from="1562157262082" duration="4222000" />
       <workItem from="1562164827189" duration="4642000" />
       <workItem from="1562170053884" duration="3021000" />
-      <workItem from="1562177131661" duration="11685000" />
+      <workItem from="1562177131661" duration="11728000" />
+      <workItem from="1562247599250" duration="5629000" />
+      <workItem from="1562268433416" duration="121000" />
+      <workItem from="1562268623150" duration="174000" />
     </task>
     <task id="LOCAL-00001" summary="se realiza desde 1 al 4">
       <created>1551305877195</created>
@@ -265,11 +282,18 @@
       <option name="project" value="LOCAL" />
       <updated>1562170111416</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Comence a ver el lenguaje sql">
+      <created>1562192998788</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1562192998788</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="163848000" />
+    <option name="totallyTimeSpent" value="169815000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -284,12 +308,11 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12313433" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12686567" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32879817" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32982457" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -301,6 +324,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -315,7 +339,8 @@
     <MESSAGE value="se realiza desde 1 al 5 constantes" />
     <MESSAGE value="se llega hasta la primera parte de los ejercicios" />
     <MESSAGE value="Se termina la parte de las cookies" />
-    <option name="LAST_COMMIT_MESSAGE" value="Se termina la parte de las cookies" />
+    <MESSAGE value="Comence a ver el lenguaje sql" />
+    <option name="LAST_COMMIT_MESSAGE" value="Comence a ver el lenguaje sql" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -324,13 +349,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/15-ejercicios/ejercicio4.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/12-funciones/variables.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -629,29 +647,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="das://table:/5cdfea6c/00bb3eb6-a790-473b-9441-a0f2a6edacbd/blog.usuarios">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/c78c47d0-2fbd-40b9-9a3e-79f596120b94/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/74e5ac96-0550-40c4-90ed-44c12be71150/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="das://table:/5cdfea6c/00bb3eb6-a790-473b-9441-a0f2a6edacbd/blog.usuarios" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/c78c47d0-2fbd-40b9-9a3e-79f596120b94/console.sql" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/74e5ac96-0550-40c4-90ed-44c12be71150/console.sql" />
     <entry file="das://table:/5cdfea6c/74e5ac96-0550-40c4-90ed-44c12be71150/blog.usuarios">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
@@ -659,18 +657,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SQL/01-tablas/crear_tabla.sql">
+    <entry file="file://$PROJECT_DIR$/SQL/02-modificar-tablas/modificar.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="2" lean-forward="true" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
+        <state relative-caret-position="0">
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="31" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SQL/02-modificar-tablas/modificar.sql">
+    <entry file="file://$PROJECT_DIR$/SQL/01-tablas/crear_tabla.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="31" />
+        <state relative-caret-position="112">
+          <caret line="7" column="2" lean-forward="false" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SQL/03-diseno/blog.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding />
         </state>
       </provider>
