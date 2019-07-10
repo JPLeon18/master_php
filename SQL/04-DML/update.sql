@@ -1,0 +1,1 @@
+UPDATE  usuarios SET fecha_registro = CURDATE(), nombre = 'juan pablo', apellido='Leon mera' WHERE id=1;
