@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4376e3ab-057b-4d4d-a690-c0bb22274c0f" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/SQL/07-vistas/vistas.sql" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/SQL/06-subconsultas/consulta.sql" afterPath="$PROJECT_DIR$/SQL/06-subconsultas/consulta.sql" />
-      <change beforePath="$PROJECT_DIR$/SQL/design_DB/Diagrama_UML.PNG" afterPath="" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -242,7 +239,7 @@
       <workItem from="1562633362745" duration="10006000" />
       <workItem from="1562717437550" duration="6806000" />
       <workItem from="1562891494409" duration="10909000" />
-      <workItem from="1562982170687" duration="5603000" />
+      <workItem from="1562982170687" duration="5651000" />
     </task>
     <task id="LOCAL-00001" summary="se realiza desde 1 al 4">
       <created>1551305877195</created>
@@ -328,11 +325,18 @@
       <option name="project" value="LOCAL" />
       <updated>1562903411618</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Diseño de base de datos consegsionario">
+      <created>1562988249476</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1562988249476</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="216756000" />
+    <option name="totallyTimeSpent" value="216804000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -382,7 +386,8 @@
     <MESSAGE value="funciones en sql" />
     <MESSAGE value="Agrupamiento SQL" />
     <MESSAGE value="Consultas Multitabla" />
-    <option name="LAST_COMMIT_MESSAGE" value="Consultas Multitabla" />
+    <MESSAGE value="Diseño de base de datos consegsionario" />
+    <option name="LAST_COMMIT_MESSAGE" value="Diseño de base de datos consegsionario" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
