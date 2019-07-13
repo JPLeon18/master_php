@@ -35,3 +35,24 @@ FROM usuarios, entradas
 WHERE entradas.usuario_id = usuarios.id
 GROUP BY usuarios.id;
 
+
+SELECT entradas.titulo, usuarios.nombre, categorias.nombre
+FROM entradas
+INNER JOIN usuarios ON entradas.usuario_id = usuarios.id
+INNER JOIN categorias ON entradas.categoria_id = categorias.id;
+
+SELECT categorias.nombre, COUNT(entradas.id)
+FROM categorias
+LEFT JOIN entradas ON categorias.id = entradas.categoria_id
+GROUP BY categorias.nombre;
+
+
+SELECT categorias.nombre, COUNT(entradas.id)
+FROM entradas
+RIGHT JOIN categorias ON categorias.id = entradas.categoria_id
+GROUP BY categorias.nombre;
+
+
+
+
+
