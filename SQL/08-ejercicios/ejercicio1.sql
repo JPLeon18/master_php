@@ -1,0 +1,50 @@
+CREATE TABLE coches (
+id INT(5) AUTO_INCREMENT NOT NULL,
+modelo VARCHAR (50) NOT NULL,
+marca VARCHAR (50) NOT NULL,
+precio INT(255) NOT NULL,
+stock INT(255) NOT NULL.
+CONSTRAINT pk_coches PRIMARY KEY (id)
+)ENGINE=InnoDB;
+
+CREATE TABLE grupos (
+id INT(5) AUTO_INCREMENT NOT NULL,
+nombre VARCHAR (100) NOT NULL,
+ciudad VARCHAR (100) NOT NULL,
+CONSTRAINT pk_grupos PRIMARY KEY (id)
+)ENGINE=InnoDB;
+
+
+CREATE TABLE clientes (
+id INT (5) AUTO_INCREMENT NOT NULL,
+vendedor_id INT (5) NOT NULL,
+nombre VARCHAR (100) NOT NULL,
+ciudad VARCHAR (100) NOT NULL,
+gastado INT (255) NOT NULL,
+CONSTRAINT pk_clientes PRIMARY KEY (id),
+
+)ENGINE=InnoDB;
+
+CREATE TABLE vendedores (
+id INT(5) AUTO_INCREMENT NOT NULL,
+grupo_id INT(5) NOT NULL,
+nombre VARCHAR (100) NOT NULL,
+apellido VARCHAR (100) NOT NULL,
+cargo VARCHAR (100) NOT NULL,
+fecha_alta DATE NOT NULL,
+sueldo INT (255) NOT NULL,
+comision INT(255) NOT NULL,
+jefe VARCHAR
+
+)ENGINE=InnoDB;
+
+CREATE TABLE encargos (
+id INT (5) AUTO_INCREMENT NOT NULL,
+cliente_id INT (5) NOT NULL,
+coche_id INT (5) NOT NULL,
+cantidad INT (255) NOT NULL,
+fecha DATE NOT NULL,
+CONSTRAINT pk_encargos PRIMARY KEY (id),
+
+
+)ENGINE=InnoDB;
