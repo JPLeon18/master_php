@@ -1,0 +1,1 @@
+UPDATE coches SET precio = precio + (precio * 0.02);
