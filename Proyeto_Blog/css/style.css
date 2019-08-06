@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
+
+*{
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+}
+
+.clearfix{
+    clear: both;
+    float: none;
+}
+
+body{
+    background: #02AAB0;
+    background: -webkit-linear-gradient(left, #00CDAC, #02AAB0);
+    background: -moz-linear-gradient(left, #00CDAC, #02AAB0);
+    background: -o-linear-gradient(left, #00CDAC, #02AAB0);
+    background: linear-gradient(right, #00CDAC, #02AAB0);
+}
+
+.cabecera{
+    width: 80%;
+    height: auto;
+    margin: 0px auto;
+}
+
+.logo{
+    float: left;
+    width: 500px;
+    height: 110px;
+}
+
+.logo a {
+    font-size: 60px;
+    letter-spacing: 2px;
+    color: #fff;
+    text-shadow: 1px 1px 2px black, 0 0 25px #000, 0 0 5px #fff;
+    transition: all 300ms;
+}
+
+.logo a:hover{
+    cursor: pointer;
+    text-shadow: 1px 1px 2px #ccc, 0 0 25px #ccc, 0 0 5px #fff;
+}
+
+.menu{
+    clear: both;
+    width: 100%;
+    height: 40px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 20px;
+}
+
+.menu ul {
+    list-style: none;
+}
+
+.menu ul li {
+    float: left;
+    margin: 0px 10px;
+    line-height: 40px;
+}
