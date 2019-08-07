@@ -81,16 +81,14 @@ body{
 
 .contenedor{
     width: 85%;
-    min-height: 900px;
+    height: auto;
     margin: 30px auto;
-
-
 }
 
 .sidebar{
     float: right;
     width: 25%;
-    min-height: 900px;
+    height: auto;
 }
 
 .contenido{
@@ -138,3 +136,68 @@ body{
     margin-top: 60px;
 }
 
+.bloque{
+    width: 90%;
+    display: block;
+    background: white;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 0px auto;
+    margin-bottom: 25px;
+    box-shadow: 1px 1px 8px #ccc;
+}
+
+label, input[type="text"], input[type="email"], input[type="password"]{
+    display: block;
+    width: 95%;
+    margin: 2px 0px 6px 0px;
+}
+
+input[type="text"], input[type="email"], input[type="password"]{
+    padding: 4px;
+}
+
+input[type="submit"]{
+    background: darkcyan;
+    color: white;
+    padding: 8px;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 5px;
+    border: 1px solid darkcyan;
+    box-shadow: 0px 0px 5px #ccc;
+    transition: 200ms;
+}
+input[type="submit"]:hover{
+    background: #00CDAC;
+    color: white;
+    padding: 8px;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 5px;
+    border: 1px solid #00CDAC;
+    box-shadow: 0px 0px 5px #ccc;
+    transition: 200ms;
+}
+
+.bloque p {
+    text-align: center;
+    color: darkcyan;
+    font-size: 20px;
+    letter-spacing: 0.1px;
+}
+
+footer{
+    width: 100%;
+    margin: 0px auto;
+    background-color: #fff;
+    padding: 15px 0px;
+    box-shadow: 2px 2px 8px #ccc, 0px 0px 0px #ccc, 0px 0px 0px #ccc, 0px 0px 0px #ccc;
+}
+
+footer p{
+    text-align: center;
+    color: darkcyan;
+}

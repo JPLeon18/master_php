@@ -1,67 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Blog de Videojuegos</title>
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-    <header class="cabecera">
-        <div class="logo">
-            <a href="index.php">Video - Blog</a>
-        </div>
+<?php require "header.php" ?>
+<?php require "sidebar.php" ?>
 
-        <nav class="menu">
-            <ul>
-                <li><a href="">INICIO</a></li>
-                <li><a href="">CATEGORIA 1</a></li>
-                <li><a href="">CATEGORIA 2</a></li>
-                <li><a href="">CATEGORIA 3</a></li>
-                <li><a href="">CATEGORIA 4</a></li>
-                <li><a href="">SOBRE NOSOTROS</a></li>
-                <li><a href="">CONTACTO</a></li>
-            </ul>
-        </nav>
-    <div class="clearfix"></div>
-    </header>
-
-    <div class="contenedor">
-
-    <aside class="sidebar">
-
-        <div class="ingreso">
-            <form action="">
-                <label for="correo">Usuario</label>
-                <input type="email" name="correo">
-
-                <label for="password">contraseña</label>
-                <input type="password" name="password">
-
-                <input type="submit" value="Entrar">
-            </form>
-        </div>
-
-        <div class="registro">
-            <form action="">
-                <label for="nombre">nombre</label>
-                <input type="text" name="nombre">
-
-                <label for="apellido">apellido</label>
-                <input type="text" name="apellido">
-
-                <label for="correo">Usuario</label>
-                <input type="email" name="correo">
-
-                <label for="password">contraseña</label>
-                <input type="password" name="password">
-
-                <input type="submit" value="Registrarse">
-            </form>
-        </div>
-    </aside>
-
-
-    <div class="contenido">
+<div class="contenido">
 
         <h1>Ultimas entradas</h1>
             <article class="articulo">
@@ -86,18 +26,9 @@
         <div class="verTodo">
             <a href="">Ver todo...</a>
         </div>
-    </div>
-
-    <div class="clearfix"></div>
-
-    </div>
 
 
-    <footer>
+</div>
 
-        <p class="copy">Desarrollado por &copy;JPLeon 2019</p>
 
-    </footer>
-
-</body>
-</html>
+<?php require "footer.php" ?>
