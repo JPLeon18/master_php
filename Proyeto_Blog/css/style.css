@@ -21,7 +21,7 @@ body{
 }
 
 .cabecera{
-    width: 80%;
+    width: 85%;
     height: auto;
     margin: 0px auto;
 }
@@ -29,7 +29,7 @@ body{
 .logo{
     float: left;
     width: 500px;
-    height: 110px;
+    height: 100px;
 }
 
 .logo a {
@@ -38,6 +38,7 @@ body{
     color: #fff;
     text-shadow: 1px 1px 2px black, 0 0 25px #000, 0 0 5px #fff;
     transition: all 300ms;
+    line-height: 90px;
 }
 
 .logo a:hover{
@@ -50,7 +51,8 @@ body{
     width: 100%;
     height: 40px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    border-radius: 20px;
+    border-radius: 15px;
+    overflow: hidden;
 }
 
 .menu ul {
@@ -59,6 +61,80 @@ body{
 
 .menu ul li {
     float: left;
-    margin: 0px 10px;
     line-height: 40px;
 }
+
+.menu ul li a {
+    color: #fff;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 15px;
+    display: block;
+}
+
+.menu ul li a:hover {
+    color: #00CDAC;
+    transition: 100ms;
+    background: white;
+}
+
+
+.contenedor{
+    width: 85%;
+    min-height: 900px;
+    margin: 30px auto;
+
+
+}
+
+.sidebar{
+    float: right;
+    width: 25%;
+    min-height: 900px;
+}
+
+.contenido{
+    float: left;
+    width: 70%;
+    min-height: 600px;
+    background: white;
+    border-radius: 7px;
+    box-shadow: 0px 0px 5px #ccc;
+    padding: 20px;
+    overflow: hidden;
+}
+
+.contenido h1{
+    font-size: 34px;
+    letter-spacing: 1px;
+    color: #000;
+    text-shadow: 1px 1px 5px #ccc;
+    margin-bottom: 8px;
+}
+
+.contenido h2 {
+    font-size: 20px;
+    color: darkcyan;
+}
+
+.contenido p {
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.contenido a {
+    color: #737373;
+}
+
+.verTodo a{
+    background: #00CDAC;
+    border-radius: 18px;
+    padding: 10px;
+    color: white;
+    display: block;
+    width: 20%;
+    margin: 0px auto;
+    text-align: center;
+    margin-top: 60px;
+}
+
