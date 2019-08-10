@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4376e3ab-057b-4d4d-a690-c0bb22274c0f" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/SQL/08-ejercicios/ejercicio1.sql" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Proyeto_Blog/includes/helpers.php" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/Proyeto_Blog/header.php" afterPath="$PROJECT_DIR$/Proyeto_Blog/header.php" />
+      <change beforePath="$PROJECT_DIR$/Proyeto_Blog/includes/conexion.php" afterPath="$PROJECT_DIR$/Proyeto_Blog/includes/conexion.php" />
+      <change beforePath="$PROJECT_DIR$/Proyeto_Blog/registro.php" afterPath="$PROJECT_DIR$/Proyeto_Blog/registro.php" />
+      <change beforePath="$PROJECT_DIR$/Proyeto_Blog/sidebar.php" afterPath="$PROJECT_DIR$/Proyeto_Blog/sidebar.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -31,44 +35,23 @@
         <item name="@localhost" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
       </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="keep: schema" type="c314c289:MysqlImplModel$Schema" />
+      </path>
     </expand>
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="ejercicio1.sql" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/SQL/08-ejercicios/ejercicio1.sql">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="20">
-              <caret line="18" column="10" lean-forward="false" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UML_Consegsionario.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SQL/00-design_DB/UML_Consegsionario.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="blog.sql" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SQL/03-diseno/blog.sql">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
-              <caret line="7" column="14" lean-forward="true" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -78,49 +61,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/12-funciones/index.php" />
-        <option value="$PROJECT_DIR$/12-funciones/variables.php" />
-        <option value="$PROJECT_DIR$/13-include/includes/cabecera.php" />
-        <option value="$PROJECT_DIR$/13-include/includes/header.php" />
-        <option value="$PROJECT_DIR$/13-include/includes/footer.php" />
-        <option value="$PROJECT_DIR$/13-include/contacto.php" />
-        <option value="$PROJECT_DIR$/13-include/index.php" />
-        <option value="$PROJECT_DIR$/13-include/sobremi.php" />
-        <option value="$PROJECT_DIR$/14-arrays/index.php" />
-        <option value="$PROJECT_DIR$/15-ejercicios/ejercicio1.php" />
-        <option value="$PROJECT_DIR$/15-ejercicios/ejercicio2.php" />
-        <option value="$PROJECT_DIR$/15-ejercicios/ejercicio3.php" />
-        <option value="$PROJECT_DIR$/15-ejercicios/ejercicio4.php" />
-        <option value="$PROJECT_DIR$/15-ejercicios/tabla_juegos/accion.php" />
-        <option value="$PROJECT_DIR$/15-ejercicios/tabla_juegos/aventura.php" />
-        <option value="$PROJECT_DIR$/15-ejercicios/tabla_juegos/deportes.php" />
-        <option value="$PROJECT_DIR$/15-ejercicios/ejercicio5.php" />
-        <option value="$PROJECT_DIR$/15-ejercicios/tabla_juegos/ejercicio6.php" />
-        <option value="$PROJECT_DIR$/15-ejercicios/tabla_juegos/arrays.php" />
-        <option value="$PROJECT_DIR$/16-sesiones/index.php" />
-        <option value="$PROJECT_DIR$/16-sesiones/page1.php" />
-        <option value="$PROJECT_DIR$/16-sesiones/loguot.php" />
-        <option value="$PROJECT_DIR$/17-cookies/index.php" />
-        <option value="$PROJECT_DIR$/17-cookies/borrar_cookie.php" />
-        <option value="$PROJECT_DIR$/17-cookies/crear_cookie.php" />
-        <option value="$PROJECT_DIR$/17-cookies/ver_cookie.php" />
-        <option value="$PROJECT_DIR$/18-formularios/index.php" />
-        <option value="$PROJECT_DIR$/18-formularios/formulario.html" />
-        <option value="$PROJECT_DIR$/12-funciones/predefinidas.php" />
-        <option value="$PROJECT_DIR$/19-validaciones/procesar.php" />
-        <option value="$PROJECT_DIR$/19-validaciones/index.php" />
-        <option value="$PROJECT_DIR$/20-ficheros/archivo_texto.txt" />
-        <option value="$PROJECT_DIR$/20-ficheros/index.php" />
-        <option value="$PROJECT_DIR$/22-subidas/procesar.php" />
-        <option value="$PROJECT_DIR$/23-ejercicios/ejercicio1.php" />
-        <option value="$PROJECT_DIR$/23-ejercicios/ejercicio2.php" />
-        <option value="$PROJECT_DIR$/23-ejercicios/ejercicio3/procesar.php" />
-        <option value="$PROJECT_DIR$/23-ejercicios/ejercicio3/ejercicio3.php" />
-        <option value="$PROJECT_DIR$/SQL/01-tablas/crear_tabla.sql" />
-        <option value="$PROJECT_DIR$/SQL/02-modificar-tablas/modificar.sql" />
-        <option value="$PROJECT_DIR$/SQL/03-diseno/blog.sql" />
-        <option value="$PROJECT_DIR$/SQL/04-DML/insert.sql" />
-        <option value="$PROJECT_DIR$/SQL/04-DML/select.sql" />
         <option value="$PROJECT_DIR$/SQL/04-DML/where.sql" />
         <option value="$PROJECT_DIR$/SQL/04-DML/update.sql" />
         <option value="$PROJECT_DIR$/SQL/04-DML/delete.sql" />
@@ -128,7 +68,50 @@
         <option value="$PROJECT_DIR$/SQL/05-agrupamiento/consultas.sql" />
         <option value="$PROJECT_DIR$/SQL/06-subconsultas/consulta.sql" />
         <option value="$PROJECT_DIR$/SQL/07-vistas/vistas.sql" />
+        <option value="$PROJECT_DIR$/SQL/08-ejercicios/ejercicio2.sql" />
         <option value="$PROJECT_DIR$/SQL/08-ejercicios/ejercicio1.sql" />
+        <option value="$PROJECT_DIR$/SQL/08-ejercicios/ejercicio3.sql" />
+        <option value="$PROJECT_DIR$/SQL/08-ejercicios/ejercicio4.sql" />
+        <option value="$PROJECT_DIR$/SQL/08-ejercicios/ejercicio5.sql" />
+        <option value="$PROJECT_DIR$/SQL/08-ejercicios/ejercicio6.sql" />
+        <option value="$PROJECT_DIR$/SQL/08-ejercicios/ejercicio7.sql" />
+        <option value="$PROJECT_DIR$/SQL/08-ejercicios/ejercicio8.sql" />
+        <option value="$PROJECT_DIR$/SQL/08-ejercicios/ejercicio9.sql" />
+        <option value="$PROJECT_DIR$/SQL/08-ejercicios/ejercicio10.sql" />
+        <option value="$PROJECT_DIR$/SQL/08-ejercicios/ejercicio11.sql" />
+        <option value="$PROJECT_DIR$/SQL/08-ejercicios/ejercicio12.sql" />
+        <option value="$PROJECT_DIR$/SQL/08-ejercicios/ejercicio13.sql" />
+        <option value="$PROJECT_DIR$/SQL/08-ejercicios/ejercicio14.sql" />
+        <option value="$PROJECT_DIR$/SQL/08-ejercicios/ejercicio15.sql" />
+        <option value="$PROJECT_DIR$/SQL/08-ejercicios/ejercicio16.sql" />
+        <option value="$PROJECT_DIR$/SQL/08-ejercicios/ejercicio17.sql" />
+        <option value="$PROJECT_DIR$/SQL/08-ejercicios/ejercicio18.sql" />
+        <option value="$PROJECT_DIR$/SQL/08-ejercicios/ejercicio19.sql" />
+        <option value="$PROJECT_DIR$/SQL/08-ejercicios/ejercicio20.sql" />
+        <option value="$PROJECT_DIR$/SQL/08-ejercicios/ejercicio21.sql" />
+        <option value="$PROJECT_DIR$/SQL/08-ejercicios/ejercicio22.sql" />
+        <option value="$PROJECT_DIR$/SQL/08-ejercicios/ejercicio23.sql" />
+        <option value="$PROJECT_DIR$/SQL/08-ejercicios/ejercicio24.sql" />
+        <option value="$PROJECT_DIR$/SQL/08-ejercicios/ejercicio25.sql" />
+        <option value="$PROJECT_DIR$/SQL/08-ejercicios/ejercicio.26.sql" />
+        <option value="$PROJECT_DIR$/SQL/08-ejercicios/ejercicio26.sql" />
+        <option value="$PROJECT_DIR$/SQL/08-ejercicios/ejercicio27.sql" />
+        <option value="$PROJECT_DIR$/SQL/08-ejercicios/ejercicio28.sql" />
+        <option value="$PROJECT_DIR$/SQL/08-ejercicios/ejercicio29.sql" />
+        <option value="$PROJECT_DIR$/SQL/08-ejercicios/ejercicio30.sql" />
+        <option value="$PROJECT_DIR$/09-bucles/index.php" />
+        <option value="$PROJECT_DIR$/24-php_y_mysql/index.php" />
+        <option value="$PROJECT_DIR$/Proyeto_Blog/includes/header.php" />
+        <option value="$PROJECT_DIR$/Proyeto_Blog/css/style.css" />
+        <option value="$PROJECT_DIR$/Proyeto_Blog/footer.php" />
+        <option value="$PROJECT_DIR$/Proyeto_Blog/index.php" />
+        <option value="$PROJECT_DIR$/Proyeto_Blog/contacto.php" />
+        <option value="$PROJECT_DIR$/Proyeto_Blog/quienesSomos.php" />
+        <option value="$PROJECT_DIR$/Proyeto_Blog/includes/conexion.php" />
+        <option value="$PROJECT_DIR$/Proyeto_Blog/registro.php" />
+        <option value="$PROJECT_DIR$/Proyeto_Blog/includes/helpers.php" />
+        <option value="$PROJECT_DIR$/Proyeto_Blog/header.php" />
+        <option value="$PROJECT_DIR$/Proyeto_Blog/sidebar.php" />
       </list>
     </option>
   </component>
@@ -152,13 +135,10 @@
           <State>
             <id />
           </State>
-          <State>
-            <id>SQL</id>
-          </State>
         </expanded-state>
         <selected-state>
           <State>
-            <id>TypeScript</id>
+            <id>JavaScript</id>
           </State>
         </selected-state>
       </profile-state>
@@ -181,6 +161,7 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -191,25 +172,18 @@
             <path>
               <item name="Master_php" type="b2602c69:ProjectViewProjectNode" />
               <item name="Master_php" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="SQL" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Proyeto_Blog" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="Master_php" type="b2602c69:ProjectViewProjectNode" />
               <item name="Master_php" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="SQL" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="00-design_DB" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="Master_php" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Master_php" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="SQL" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="03-diseno" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Proyeto_Blog" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="includes" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -222,9 +196,23 @@
     <property name="SearchEverywhereHistoryKey" value="data&#9;ACTION&#9;ActivateDatabaseToolWindow" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
     <property name="grid.search.filter.rows" value="true" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$2/Languages" value="SQL" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="" />
+    <property name="node.js.path.for.package.standard" value="project" />
+    <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.selected.package.standard" value="" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.path.for.package.stylelint" value="project" />
+    <property name="node.js.detected.package.stylelint" value="true" />
+    <property name="node.js.selected.package.stylelint" value="" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\wamp64\www\Master_php" />
+      <recent name="C:\wamp64\www\Master_php\Proyeto_Blog\includes" />
+      <recent name="C:\wamp64\www\Master_php\Proyeto_Blog" />
       <recent name="C:\wamp64\www\Master_php\SQL" />
     </key>
   </component>
@@ -280,7 +268,19 @@
       <workItem from="1562717437550" duration="6806000" />
       <workItem from="1562891494409" duration="10909000" />
       <workItem from="1562982170687" duration="6570000" />
-      <workItem from="1563238980870" duration="2898000" />
+      <workItem from="1563238980870" duration="2941000" />
+      <workItem from="1563496689817" duration="11152000" />
+      <workItem from="1563808473704" duration="13323000" />
+      <workItem from="1563894673488" duration="7764000" />
+      <workItem from="1564151016046" duration="6381000" />
+      <workItem from="1564531185005" duration="11562000" />
+      <workItem from="1564706590764" duration="8655000" />
+      <workItem from="1564874880956" duration="2207000" />
+      <workItem from="1565054379345" duration="11155000" />
+      <workItem from="1565144803510" duration="8529000" />
+      <workItem from="1565195098173" duration="8542000" />
+      <workItem from="1565316036177" duration="7868000" />
+      <workItem from="1565402762571" duration="8062000" />
     </task>
     <task id="LOCAL-00001" summary="se realiza desde 1 al 4">
       <created>1551305877195</created>
@@ -394,11 +394,88 @@
       <option name="project" value="LOCAL" />
       <updated>1562988493521</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="creando base de datos">
+      <created>1563249645439</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1563249645439</updated>
+    </task>
+    <task id="LOCAL-00018" summary="creando base de datos">
+      <created>1563507422199</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1563507422199</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Bloque de ejercicios SQL">
+      <created>1563826746001</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1563826746001</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Bloque de ejercicios SQL">
+      <created>1563903916849</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1563903916849</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Bloque de ejercicios SQL">
+      <created>1564162830794</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1564162830794</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Bloque de ejercicios SQL">
+      <created>1564543212839</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1564543212839</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Bloque de ejercicios SQL finales y se empieza de nuevo con php">
+      <created>1564715391325</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1564715391325</updated>
+    </task>
+    <task id="LOCAL-00024" summary="blog">
+      <created>1565066095082</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1565066095082</updated>
+    </task>
+    <task id="LOCAL-00025" summary="blog">
+      <created>1565153389532</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1565153389532</updated>
+    </task>
+    <task id="LOCAL-00026" summary="blog includes">
+      <created>1565203709753</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1565203709753</updated>
+    </task>
+    <task id="LOCAL-00027" summary="validar e insertar usuario">
+      <created>1565324540907</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1565324540907</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="220621000" />
+    <option name="totallyTimeSpent" value="325864000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -411,9 +488,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18381241" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22012103" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32879817" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -450,7 +526,13 @@
     <MESSAGE value="Agrupamiento SQL" />
     <MESSAGE value="Consultas Multitabla" />
     <MESSAGE value="Diseño de base de datos consegsionario" />
-    <option name="LAST_COMMIT_MESSAGE" value="Diseño de base de datos consegsionario" />
+    <MESSAGE value="creando base de datos" />
+    <MESSAGE value="Bloque de ejercicios SQL" />
+    <MESSAGE value="Bloque de ejercicios SQL finales y se empieza de nuevo con php" />
+    <MESSAGE value="blog" />
+    <MESSAGE value="blog includes" />
+    <MESSAGE value="validar e insertar usuario" />
+    <option name="LAST_COMMIT_MESSAGE" value="validar e insertar usuario" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -459,305 +541,369 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/03-variables/index.php">
+    <entry file="file://$PROJECT_DIR$/SQL/08-ejercicios/ejercicio18.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        <state relative-caret-position="96">
+          <caret line="6" column="42" lean-forward="true" selection-start-line="6" selection-start-column="42" selection-end-line="6" selection-end-column="42" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/04-tipos/index.php">
+    <entry file="file://$PROJECT_DIR$/SQL/08-ejercicios/ejercicio.26.sql" />
+    <entry file="file://$PROJECT_DIR$/SQL/08-ejercicios/ejercicio19.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="19" column="22" lean-forward="true" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+        <state relative-caret-position="64">
+          <caret line="4" column="37" lean-forward="true" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/05-constantes/index.php">
+    <entry file="file://$PROJECT_DIR$/SQL/08-ejercicios/ejercicio20.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="23" lean-forward="false" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+        <state relative-caret-position="16">
+          <caret line="1" column="87" lean-forward="false" selection-start-line="1" selection-start-column="87" selection-end-line="1" selection-end-column="87" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/07-superglobales/index.php">
+    <entry file="file://$PROJECT_DIR$/SQL/08-ejercicios/ejercicio1.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        <state relative-caret-position="48">
+          <caret line="3" column="21" lean-forward="true" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/06-operadores/index.php">
+    <entry file="file://$PROJECT_DIR$/SQL/08-ejercicios/ejercicio25.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="13" column="34" lean-forward="false" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
+        <state relative-caret-position="192">
+          <caret line="12" column="21" lean-forward="true" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/08-condicionales/index.php">
+    <entry file="file://$PROJECT_DIR$/SQL/08-ejercicios/ejercicio21.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-108">
-          <caret line="26" column="20" lean-forward="true" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
+        <state relative-caret-position="176">
+          <caret line="11" column="38" lean-forward="true" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/09-bucles/index.php">
+    <entry file="file://$PROJECT_DIR$/SQL/08-ejercicios/ejercicio22.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="2" lean-forward="false" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
+        <state relative-caret-position="32">
+          <caret line="2" column="31" lean-forward="true" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/11-ejercicios/ejercicio1.php">
+    <entry file="file://$PROJECT_DIR$/SQL/08-ejercicios/ejercicio23.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="21" lean-forward="false" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+        <state relative-caret-position="64">
+          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/11-ejercicios/ejercicio2.php">
+    <entry file="file://$PROJECT_DIR$/SQL/08-ejercicios/ejercicio27.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="18" lean-forward="false" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+        <state relative-caret-position="80">
+          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/12-funciones/index.php">
+    <entry file="file://$PROJECT_DIR$/SQL/08-ejercicios/ejercicio24.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="756">
-          <caret line="113" column="0" lean-forward="true" selection-start-line="113" selection-start-column="0" selection-end-line="113" selection-end-column="0" />
+        <state relative-caret-position="96">
+          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/19-validaciones/index.php">
+    <entry file="file://$PROJECT_DIR$/SQL/08-ejercicios/ejercicio29.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="14" column="6" lean-forward="true" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
+        <state relative-caret-position="48">
+          <caret line="3" column="69" lean-forward="true" selection-start-line="3" selection-start-column="69" selection-end-line="3" selection-end-column="69" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/19-validaciones/procesar.php">
+    <entry file="file://$PROJECT_DIR$/SQL/08-ejercicios/ejercicio30.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="16" column="51" lean-forward="true" selection-start-line="16" selection-start-column="51" selection-end-line="16" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/12-funciones/predefinidas.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="26" column="18" lean-forward="false" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/20-ficheros/fichero_copia.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/20-ficheros/archivo_texto.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="3" lean-forward="false" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+        <state relative-caret-position="80">
+          <caret line="5" column="11" lean-forward="true" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/10-bucleFor/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="55" lean-forward="true" selection-start-line="17" selection-start-column="55" selection-end-line="17" selection-end-column="55" />
+        <state relative-caret-position="272">
+          <caret line="17" column="53" lean-forward="true" selection-start-line="17" selection-start-column="53" selection-end-line="17" selection-end-column="53" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/20-ficheros/index.php">
+    <entry file="file://$PROJECT_DIR$/09-bucles/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="30" column="29" lean-forward="true" selection-start-line="30" selection-start-column="29" selection-end-line="30" selection-end-column="29" />
+        <state relative-caret-position="136">
+          <caret line="10" column="11" lean-forward="true" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/22-subidas/delete.php">
+    <entry file="file://$PROJECT_DIR$/12-funciones/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1488">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/11-ejercicios/ejercicio1.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/22-subidas/imagenes/4839.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
+    <entry file="file://$PROJECT_DIR$/11-ejercicios/ejercicio2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/22-subidas/imagenes/analitica.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
+    <entry file="file://$PROJECT_DIR$/11-ejercicios/ejercicio3.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/11-ejercicios/ejercicio4.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/11-ejercicios/ejercicio5.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/11-ejercicios/ejercicio6.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/11-ejercicios/ejercicio7.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/22-subidas/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="33" column="39" lean-forward="true" selection-start-line="33" selection-start-column="39" selection-end-line="33" selection-end-column="39" />
+        <state relative-caret-position="256">
+          <caret line="16" column="51" lean-forward="false" selection-start-line="16" selection-start-column="51" selection-end-line="16" selection-end-column="51" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/22-subidas/procesar.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="49" lean-forward="true" selection-start-line="19" selection-start-column="49" selection-end-line="19" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/23-ejercicios/ejercicio1.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="26" lean-forward="true" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/23-ejercicios/ejercicio2.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/23-ejercicios/ejercicio3/procesar.php">
+    <entry file="file://$PROJECT_DIR$/plantilla.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="20" selection-end-column="2" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="10" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/23-ejercicios/ejercicio3/ejercicio3.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/5cdfea6c/00bb3eb6-a790-473b-9441-a0f2a6edacbd/blog.usuarios" />
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/c78c47d0-2fbd-40b9-9a3e-79f596120b94/console.sql" />
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/74e5ac96-0550-40c4-90ed-44c12be71150/console.sql" />
-    <entry file="das://table:/5cdfea6c/74e5ac96-0550-40c4-90ed-44c12be71150/blog.usuarios" />
-    <entry file="file://$PROJECT_DIR$/SQL/design_DB/Diagrama_UML.PNG" />
-    <entry file="das://table:/5cdfea6c/74e5ac96-0550-40c4-90ed-44c12be71150/blog.users" />
-    <entry file="file://G:/bk equipo/escritorio/blog_DB.sql" />
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/6520e558-4923-40e1-b413-405248029bc7/console.sql" />
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/e931ef61-43ab-498d-a50c-59965e569f4c/console.sql">
+    <entry file="file://$PROJECT_DIR$/01_imprimir_en_pantalla/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="das://table:/5cdfea6c/e931ef61-43ab-498d-a50c-59965e569f4c/blog.usuarios">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SQL/04-DML/delete.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="16">
-          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SQL/04-DML/insert.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="8" column="70" lean-forward="true" selection-start-line="8" selection-start-column="70" selection-end-line="8" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SQL/05-agrupamiento/insert-agrup.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="16" column="28" lean-forward="false" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SQL/04-DML/update.sql">
+    <entry file="file://$PROJECT_DIR$/02_imprimir/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="104" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SQL/04-DML/where.sql">
+    <entry file="file://$PROJECT_DIR$/13-include/sobremi.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/13-include/includes/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/13-include/includes/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/13-include/contacto.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/13-include/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Proyeto_Blog/footer.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="64">
-          <caret line="4" column="49" lean-forward="false" selection-start-line="4" selection-start-column="49" selection-end-line="4" selection-end-column="49" />
+          <caret line="4" column="6" lean-forward="false" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SQL/04-DML/select.sql">
+    <entry file="file://$PROJECT_DIR$/Proyeto_Blog/contacto.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="26" column="17" lean-forward="false" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
+        <state relative-caret-position="80">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SQL/05-agrupamiento/consultas.sql">
+    <entry file="file://$PROJECT_DIR$/Proyeto_Blog/quienesSomos.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="16">
-          <caret line="1" column="38" lean-forward="false" selection-start-line="1" selection-start-column="38" selection-end-line="1" selection-end-column="38" />
+        <state relative-caret-position="208">
+          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/19-validaciones/procesar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="33" column="14" lean-forward="false" selection-start-line="33" selection-start-column="14" selection-end-line="33" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/19-validaciones/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="11" column="36" lean-forward="true" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SQL/08-ejercicios/ejercicio26.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="5" column="21" lean-forward="true" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SQL/08-ejercicios/ejercicio28.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="4" column="21" lean-forward="true" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SQL/08-ejercicios/ejercicio3.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/SQL/06-subconsultas/consulta.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="41" selection-end-column="63" />
+        <state relative-caret-position="272">
+          <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="46" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SQL/07-vistas/vistas.sql">
+    <entry file="file://$PROJECT_DIR$/SQL/05-agrupamiento/consultas.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SQL/05-agrupamiento/insert-agrup.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/24-php_y_mysql/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="376">
+          <caret line="40" column="6" lean-forward="true" selection-start-line="40" selection-start-column="6" selection-end-line="40" selection-end-column="6" />
+          <folding>
+            <marker date="1565056991344" expanded="true" signature="435:454" ph="SELECT * FRO... notas" />
+            <marker date="1565056991344" expanded="true" signature="732:849" ph="INSERT INTO notas... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Proyeto_Blog/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="80">
-          <caret line="5" column="63" lean-forward="true" selection-start-line="5" selection-start-column="63" selection-end-line="5" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SQL/00-design_DB/Diagrama_UML.PNG">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SQL/01-tablas/crear_tabla.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="7" column="2" lean-forward="false" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SQL/02-modificar-tablas/modificar.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="18" column="28" lean-forward="false" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SQL/03-diseno/blog.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="7" column="14" lean-forward="true" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+          <caret line="5" column="17" lean-forward="true" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SQL/00-design_DB/UML_Consegsionario.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
+    <entry file="file://$PROJECT_DIR$/Proyeto_Blog/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="3" column="23" lean-forward="false" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SQL/08-ejercicios/ejercicio1.sql">
+    <entry file="file://$PROJECT_DIR$/Proyeto_Blog/registro.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="18" column="10" lean-forward="false" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
+        <state relative-caret-position="-262">
+          <caret line="1" column="32" lean-forward="true" selection-start-line="1" selection-start-column="32" selection-end-line="1" selection-end-column="32" />
+          <folding>
+            <marker date="1565409008699" expanded="true" signature="1673:1773" ph="INSERT INTO usuarios... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Proyeto_Blog/includes/conexion.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Proyeto_Blog/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16">
+          <caret line="1" column="38" lean-forward="true" selection-start-line="1" selection-start-column="38" selection-end-line="1" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Proyeto_Blog/sidebar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <folding>
+            <marker date="1565411499936" expanded="true" signature="1023:1204" ph="..." />
+            <marker date="1565411499936" expanded="true" signature="1057:1204" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Proyeto_Blog/includes/helpers.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding />
         </state>
       </provider>

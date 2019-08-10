@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
+
+*{
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+}
+
+.clearfix{
+    clear: both;
+    float: none;
+}
+
+body{
+    background: #02AAB0;
+    background: -webkit-linear-gradient(left, #00CDAC, #02AAB0);
+    background: -moz-linear-gradient(left, #00CDAC, #02AAB0);
+    background: -o-linear-gradient(left, #00CDAC, #02AAB0);
+    background: linear-gradient(right, #00CDAC, #02AAB0);
+}
+
+.cabecera{
+    width: 85%;
+    height: auto;
+    margin: 0px auto;
+}
+
+.logo{
+    float: left;
+    width: 500px;
+    height: 100px;
+}
+
+.logo a {
+    font-size: 60px;
+    letter-spacing: 2px;
+    color: #fff;
+    text-shadow: 1px 1px 2px black, 0 0 25px #000, 0 0 5px #fff;
+    transition: all 300ms;
+    line-height: 90px;
+}
+
+.logo a:hover{
+    cursor: pointer;
+    text-shadow: 1px 1px 2px #ccc, 0 0 25px #ccc, 0 0 5px #fff;
+}
+
+.menu{
+    clear: both;
+    width: 100%;
+    height: 40px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.menu ul {
+    list-style: none;
+}
+
+.menu ul li {
+    float: left;
+    line-height: 40px;
+}
+
+.menu ul li a {
+    color: #fff;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 15px;
+    display: block;
+}
+
+.menu ul li a:hover {
+    color: #00CDAC;
+    transition: 100ms;
+    background: white;
+}
+
+
+.contenedor{
+    width: 85%;
+    height: auto;
+    margin: 30px auto;
+}
+
+.sidebar{
+    float: right;
+    width: 25%;
+    height: auto;
+}
+
+.contenido{
+    float: left;
+    width: 70%;
+    min-height: 600px;
+    background: white;
+    border-radius: 7px;
+    box-shadow: 0px 0px 5px #ccc;
+    padding: 20px;
+    overflow: hidden;
+}
+
+.contenido h1{
+    font-size: 34px;
+    letter-spacing: 1px;
+    color: #000;
+    text-shadow: 1px 1px 5px #ccc;
+    margin-bottom: 8px;
+}
+
+.contenido h2 {
+    font-size: 20px;
+    color: darkcyan;
+}
+
+.contenido p {
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.contenido a {
+    color: #737373;
+}
+
+.verTodo a{
+    background: #00CDAC;
+    border-radius: 18px;
+    padding: 10px;
+    color: white;
+    display: block;
+    width: 20%;
+    margin: 0px auto;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.bloque{
+    width: 90%;
+    display: block;
+    background: white;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 0px auto;
+    margin-bottom: 25px;
+    box-shadow: 1px 1px 8px #ccc;
+}
+
+label, input[type="text"], input[type="email"], input[type="password"]{
+    display: block;
+    width: 95%;
+    margin: 2px 0px 6px 0px;
+}
+
+input[type="text"], input[type="email"], input[type="password"]{
+    padding: 4px;
+}
+
+input[type="submit"]{
+    background: darkcyan;
+    color: white;
+    padding: 8px;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 5px;
+    border: 1px solid darkcyan;
+    box-shadow: 0px 0px 5px #ccc;
+    transition: 200ms;
+}
+input[type="submit"]:hover{
+    background: #00CDAC;
+    color: white;
+    padding: 8px;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 5px;
+    border: 1px solid #00CDAC;
+    box-shadow: 0px 0px 5px #ccc;
+    transition: 200ms;
+}
+
+.bloque p {
+    text-align: center;
+    color: darkcyan;
+    font-size: 20px;
+    letter-spacing: 0.1px;
+}
+
+footer{
+    width: 100%;
+    margin: 0px auto;
+    background-color: #fff;
+    padding: 15px 0px;
+    box-shadow: 2px 2px 8px #ccc, 0px 0px 0px #ccc, 0px 0px 0px #ccc, 0px 0px 0px #ccc;
+}
+
+footer p{
+    text-align: center;
+    color: darkcyan;
+}
