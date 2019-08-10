@@ -1,58 +1,61 @@
 <?php
-
 require "includes/conexion.php";
 
-$status = "Error: Por favor llene todos los campos";
-$colorStatus = "crimson";
+$_SESSION['status'] = "Error: Por favor llene todos los campos";
+$_SESSION['color'] = "crimson";
+
 
 if (!empty($_POST['nombre']) && !empty($_POST['apellido']) &&  !empty($_POST['correo']) && !empty($_POST['password'])){
 
-    $nombre = $_POST['nombre'];
-    $apellido = $_POST['apellido'];
-    $correo = $_POST['correo'];
-    $password = $_POST['password'];
-    $status = "ok";
+    $nombre = mysqli_real_escape_string($conexion, $_POST['nombre']);
+    $apellido = mysqli_real_escape_string($conexion, $_POST['apellido']);
+    $correo = mysqli_real_escape_string($conexion, $_POST['correo']);
+    $password = mysqli_real_escape_string($conexion, $_POST['password']);
+    $_SESSION['status'] = "ok";
 
     if (!is_string($nombre) || preg_match("/[0-9]+/", $nombre)){
-        $status = "Error: Por favor verifique su nombre";
-        $colorStatus = "crimson";
-        header("location: index.php?status=$status&color=$colorStatus");
+        $_SESSION['status'] = "Error: Por favor verifique su nombre";
+        $_SESSION['color'] = "crimson";
+        header("location: index.php");
         }
 
     if (!is_string($apellido) || preg_match("/[0-9]+/", $apellido)){
-        $status = "Error: Por favor verifique su apellido";
-        $colorStatus = "crimson";
-        header("location: index.php?status=$status&color=$colorStatus");
+        $_SESSION['status'] = "Error: Por favor verifique su apellido";
+        $_SESSION['color'] = "crimson";
+        header("location: index.php");
     }
 
     if (!is_string($correo) || !filter_var($correo, FILTER_VALIDATE_EMAIL)){
-        $status = "Error: Por favor verifique su correo";
-        $colorStatus = "crimson";
-        header("location: index.php?status=$status&color=$colorStatus");
+        $_SESSION['status'] = "Error: Por favor verifique su correo";
+        $_SESSION['color'] = "crimson";
+        header("location: index.php");
     }
 
     if (empty($password) || strlen($password) < 5){
-        $status = "Error: La contraseña debe tener minimo 5 caracteres";
-        $colorStatus = "crimson";
-        header("location: index.php?status=$status&color=$colorStatus");
+        $_SESSION['status'] = "Error: La contraseña debe tener minimo 5 caracteres";
+        $_SESSION['color'] = "crimson";
+        header("location: index.php");
     }
 
 }else{
-    header("location: index.php?status=$status&color=$colorStatus");
+    header("location: index.php");
 }
 
 
-if ($status == "ok"){
-    $consultaInsert = "INSERT INTO usuarios VALUES (NULL, '$nombre', '$apellido', '$correo', '$password', CURDATE())";
+if ($_SESSION['status'] == "ok"){
+
+    $passwordCifrada = password_hash($password, PASSWORD_BCRYPT, ['cost'=>4]);
+
+    $consultaInsert = "INSERT INTO usuarios VALUES (NULL, '$nombre', '$apellido', '$correo', '$passwordCifrada', CURDATE())";
     $consulta = mysqli_query($conexion, $consultaInsert);
 
     if ($consulta){
-        $status = "Usuario registrado correctamente";
-        $colorStatus = "limegreen";
-        header("location: index.php?status=$status&color=$colorStatus");
+        $_SESSION['status'] = "Usuario registrado correctamente";
+        $_SESSION['color'] = "limegreen";
+        header("location: index.php");
     }else{
-        $status = "Error de conexion: ".mysqli_error($conexion);
-        $colorStatus = "crimson";
-        header("location: index.php?status=$status&color=$colorStatus");
+        $_SESSION['status'] = "Error de conexion: ".mysqli_error($conexion);
+        $_SESSION['color'] = "crimson";
+        header("location: index.php");
     }
 }

@@ -1,3 +1,4 @@
+
 <aside class="sidebar">
 
     <div class="bloque">
@@ -31,9 +32,9 @@
             <input type="password" name="password">
 
             <?php
-            if (!empty($_GET["status"]) && !empty($_GET['color'])){
-                echo "<strong style='background: ".$_GET['color'].";color: #fff; font-size: 13px; font-family: sans-serif; display: block;
-    width: auto; margin: 10px 0px 6px 0px; padding: 5px; border-radius: 5px'>".$_GET['status']."</strong>";
+            if (!empty($_SESSION["status"]) && !empty($_SESSION['color'])){
+                echo "<strong style='background: ".$_SESSION['color'].";color: #fff; font-size: 13px; font-family: sans-serif; display: block;
+    width: auto; margin: 10px 0px 6px 0px; padding: 5px; border-radius: 5px'>".$_SESSION['status']."</strong>";
             }
 
             ?>

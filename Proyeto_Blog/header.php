@@ -1,4 +1,5 @@
 <?php require "includes/conexion.php"?>
+<?php require "includes/helpers.php"?>
 <!DOCTYPE html>
 <html lang="en">
 <head>

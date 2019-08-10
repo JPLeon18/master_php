@@ -1,5 +1,8 @@
 <?php
 
+session_start();
+
+
 $host = "localhost";
 $user = "root";
 $password = "";
@@ -12,3 +15,4 @@ if (mysqli_connect_errno()){
 }
 
 mysqli_query($conexion, "SET NAMES 'utf8'");
+
