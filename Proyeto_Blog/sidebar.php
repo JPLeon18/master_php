@@ -4,13 +4,25 @@
     <div class="bloque">
         <p>Ingresar al sistema</p>
 
-        <form action="">
-            <label for="correo">Usuario</label>
+        <form action="login.php" method="post">
+            <label for="correo">correo</label>
             <input type="email" name="correo">
 
             <label for="password">contraseña</label>
             <input type="password" name="password">
 
+            <?php if (isset($_SESSION['usuario'])) : ?>
+            <div class="usuario">
+            <h3><?php $_SESSION['sesion']['nombre'].' '.$_SESSION['sesion']['apellido']; ?></h3>
+
+            </div>
+            <?php endif ;?>
+
+            <?php if (isset($_SESSION['error'])) : ?>
+            <div class="error">
+
+            </div>
+            <?php endif ;?>
             <input type="submit" value="Entrar">
         </form>
     </div>

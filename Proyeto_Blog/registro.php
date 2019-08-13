@@ -9,7 +9,7 @@ if (!empty($_POST['nombre']) && !empty($_POST['apellido']) &&  !empty($_POST['co
 
     $nombre = mysqli_real_escape_string($conexion, $_POST['nombre']);
     $apellido = mysqli_real_escape_string($conexion, $_POST['apellido']);
-    $correo = mysqli_real_escape_string($conexion, $_POST['correo']);
+    $correo = mysqli_real_escape_string($conexion, trim($_POST['correo']));
     $password = mysqli_real_escape_string($conexion, $_POST['password']);
     $_SESSION['status'] = "ok";
 

@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4376e3ab-057b-4d4d-a690-c0bb22274c0f" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/Proyeto_Blog/includes/helpers.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Proyeto_Blog/login.php" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/Proyeto_Blog/header.php" afterPath="$PROJECT_DIR$/Proyeto_Blog/header.php" />
-      <change beforePath="$PROJECT_DIR$/Proyeto_Blog/includes/conexion.php" afterPath="$PROJECT_DIR$/Proyeto_Blog/includes/conexion.php" />
       <change beforePath="$PROJECT_DIR$/Proyeto_Blog/registro.php" afterPath="$PROJECT_DIR$/Proyeto_Blog/registro.php" />
       <change beforePath="$PROJECT_DIR$/Proyeto_Blog/sidebar.php" afterPath="$PROJECT_DIR$/Proyeto_Blog/sidebar.php" />
     </list>
@@ -45,7 +43,46 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="sidebar.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Proyeto_Blog/sidebar.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="15" column="88" lean-forward="false" selection-start-line="15" selection-start-column="88" selection-end-line="15" selection-end-column="88" />
+              <folding>
+                <marker date="1565665473303" expanded="true" signature="1415:1596" ph="..." />
+                <marker date="1565665473303" expanded="true" signature="1449:1596" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Proyeto_Blog/login.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="21" column="12" lean-forward="true" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="31" />
+              <folding>
+                <marker date="1565664994637" expanded="true" signature="282:318" ph="SELECT * FRO... usuarios" />
+                <marker date="1565664994637" expanded="true" signature="282:332" ph="SELECT * FRO... usuarios" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="registro.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Proyeto_Blog/registro.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-288">
+              <caret line="12" column="73" lean-forward="true" selection-start-line="12" selection-start-column="73" selection-end-line="12" selection-end-column="73" />
+              <folding>
+                <marker date="1565661107188" expanded="true" signature="1679:1779" ph="INSERT INTO usuarios... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -61,7 +98,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/SQL/04-DML/where.sql" />
         <option value="$PROJECT_DIR$/SQL/04-DML/update.sql" />
         <option value="$PROJECT_DIR$/SQL/04-DML/delete.sql" />
         <option value="$PROJECT_DIR$/SQL/05-agrupamiento/insert-agrup.sql" />
@@ -108,9 +144,10 @@
         <option value="$PROJECT_DIR$/Proyeto_Blog/contacto.php" />
         <option value="$PROJECT_DIR$/Proyeto_Blog/quienesSomos.php" />
         <option value="$PROJECT_DIR$/Proyeto_Blog/includes/conexion.php" />
-        <option value="$PROJECT_DIR$/Proyeto_Blog/registro.php" />
         <option value="$PROJECT_DIR$/Proyeto_Blog/includes/helpers.php" />
         <option value="$PROJECT_DIR$/Proyeto_Blog/header.php" />
+        <option value="$PROJECT_DIR$/Proyeto_Blog/registro.php" />
+        <option value="$PROJECT_DIR$/Proyeto_Blog/login.php" />
         <option value="$PROJECT_DIR$/Proyeto_Blog/sidebar.php" />
       </list>
     </option>
@@ -160,7 +197,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -174,16 +210,11 @@
               <item name="Master_php" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="Proyeto_Blog" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
-            <path>
-              <item name="Master_php" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Master_php" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Proyeto_Blog" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="includes" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -280,7 +311,8 @@
       <workItem from="1565144803510" duration="8529000" />
       <workItem from="1565195098173" duration="8542000" />
       <workItem from="1565316036177" duration="7868000" />
-      <workItem from="1565402762571" duration="8062000" />
+      <workItem from="1565402762571" duration="8100000" />
+      <workItem from="1565656855821" duration="7959000" />
     </task>
     <task id="LOCAL-00001" summary="se realiza desde 1 al 4">
       <created>1551305877195</created>
@@ -471,11 +503,18 @@
       <option name="project" value="LOCAL" />
       <updated>1565324540907</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="sesiones">
+      <created>1565411690570</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1565411690570</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="325864000" />
+    <option name="totallyTimeSpent" value="333861000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -488,8 +527,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22012103" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22314675" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32879817" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -532,7 +572,8 @@
     <MESSAGE value="blog" />
     <MESSAGE value="blog includes" />
     <MESSAGE value="validar e insertar usuario" />
-    <option name="LAST_COMMIT_MESSAGE" value="validar e insertar usuario" />
+    <MESSAGE value="sesiones" />
+    <option name="LAST_COMMIT_MESSAGE" value="sesiones" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -541,13 +582,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/SQL/08-ejercicios/ejercicio18.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="6" column="42" lean-forward="true" selection-start-line="6" selection-start-column="42" selection-end-line="6" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/SQL/08-ejercicios/ejercicio.26.sql" />
     <entry file="file://$PROJECT_DIR$/SQL/08-ejercicios/ejercicio19.sql">
       <provider selected="true" editor-type-id="text-editor">
@@ -859,17 +893,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="48">
           <caret line="3" column="23" lean-forward="false" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Proyeto_Blog/registro.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-262">
-          <caret line="1" column="32" lean-forward="true" selection-start-line="1" selection-start-column="32" selection-end-line="1" selection-end-column="32" />
-          <folding>
-            <marker date="1565409008699" expanded="true" signature="1673:1773" ph="INSERT INTO usuarios... " />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -885,18 +908,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="16">
           <caret line="1" column="38" lean-forward="true" selection-start-line="1" selection-start-column="38" selection-end-line="1" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Proyeto_Blog/sidebar.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-          <folding>
-            <marker date="1565411499936" expanded="true" signature="1023:1204" ph="..." />
-            <marker date="1565411499936" expanded="true" signature="1057:1204" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -904,7 +915,38 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="64">
           <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Proyeto_Blog/registro.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-288">
+          <caret line="12" column="73" lean-forward="true" selection-start-line="12" selection-start-column="73" selection-end-line="12" selection-end-column="73" />
+          <folding>
+            <marker date="1565661107188" expanded="true" signature="1679:1779" ph="INSERT INTO usuarios... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Proyeto_Blog/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="21" column="12" lean-forward="true" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="31" />
+          <folding>
+            <marker date="1565664994637" expanded="true" signature="282:318" ph="SELECT * FRO... usuarios" />
+            <marker date="1565664994637" expanded="true" signature="282:332" ph="SELECT * FRO... usuarios" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Proyeto_Blog/sidebar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="15" column="88" lean-forward="false" selection-start-line="15" selection-start-column="88" selection-end-line="15" selection-end-column="88" />
+          <folding>
+            <marker date="1565665473303" expanded="true" signature="1415:1596" ph="..." />
+            <marker date="1565665473303" expanded="true" signature="1449:1596" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
