@@ -19,21 +19,22 @@ if (!empty($_POST['correo']) && !empty($_POST['password'])){
         $verify = password_verify($passwordUser, $usuario['password']);
 
         if ($verify){
-            $_SESSION['sesion'] = $usuario;
+            $_SESSION['user_login'] = $usuario;
 
-
-
-
-
-            if (isset($_SESSION['error'])){
-                session_unset($_SESSION['error']);
+            if (isset($_SESSION['error_login'])){
+                $_SESSION['error_login'] = "ok";
             }
+
+        }else{
+            $_SESSION['error_login'] = "Login incorecto";
         }
 
     }else{
-        $_SESSION['error'] = "Login incorecto";
+        $_SESSION['error_login'] = "Login incorecto";
     }
 }else{
-    $_SESSION['error'] = "Login incorecto";
+    $_SESSION['error_login'] = "Login incorecto";
 }
+
+header("Location: index.php");
 

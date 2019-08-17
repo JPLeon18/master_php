@@ -157,7 +157,8 @@ input[type="text"], input[type="email"], input[type="password"]{
     padding: 4px;
 }
 
-input[type="submit"]{
+input[type="submit"], .botonAzul{
+    display: block;
     background: darkcyan;
     color: white;
     padding: 8px;
@@ -169,6 +170,22 @@ input[type="submit"]{
     box-shadow: 0px 0px 5px #ccc;
     transition: 200ms;
 }
+
+.botonAzul{
+    width: 130px;
+    text-align: center;
+}
+
+.boton-rojo{
+    background: crimson;
+    border: 1px solid crimson;
+}
+
+.boton-verde{
+    background: limegreen;
+    border: 1px solid limegreen;
+}
+
 input[type="submit"]:hover{
     background: #00CDAC;
     color: white;
@@ -200,4 +217,21 @@ footer{
 footer p{
     text-align: center;
     color: darkcyan;
+}
+
+.alerta{
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 14px;
+    margin: 7px 0px;
+}
+
+.alerta-error{
+    background: crimson;
+    color: white;
+}
+
+.alerta-succes{
+    background: limegreen;
+    color: white;
 }
