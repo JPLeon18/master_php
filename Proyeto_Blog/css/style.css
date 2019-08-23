@@ -235,3 +235,14 @@ footer p{
     background: limegreen;
     color: white;
 }
+
+.categoriaEntrada{
+    color: white;
+    background: #00CDAC;
+    border-radius: 15px;
+    padding: 7px 10px;
+    font-size: 13px;
+    float: left;
+    margin: 3px 0px 3px 5px;
+    font-family: sans-serif;
+}
