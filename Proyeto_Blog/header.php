@@ -16,10 +16,22 @@
     <nav class="menu">
         <ul>
             <li><a href="index.php">INICIO</a></li>
-            <li><a href="">CATEGORIA 1</a></li>
-            <li><a href="">CATEGORIA 2</a></li>
-            <li><a href="">CATEGORIA 3</a></li>
-            <li><a href="">CATEGORIA 4</a></li>
+
+<?php
+            $categorias = conseguirCategorias();
+
+            if (!empty($categorias)) :
+
+                while ($categoria = mysqli_fetch_assoc($categorias)) :
+?>
+
+                <li><a href="categoria.php?id=<?=$categoria["id"]?>"><?=strtoupper(trim($categoria["nombre"]))?></a></li>
+
+<?php
+                endwhile;
+            endif;
+?>
+
             <li><a href="quienesSomos.php">SOBRE NOSOTROS</a></li>
             <li><a href="contacto.php">CONTACTO</a></li>
         </ul>
