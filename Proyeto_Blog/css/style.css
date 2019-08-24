@@ -90,6 +90,15 @@ body{
     width: 25%;
     height: auto;
 }
+.articulo{
+    padding: 5px;
+}
+
+.articulo:hover{
+    background: rgba(0,205,172,0.1);
+    border-radius: 7px;
+}
+
 
 .contenido{
     float: left;
@@ -240,8 +249,8 @@ footer p{
     color: white;
     background: #00CDAC;
     border-radius: 15px;
-    padding: 7px 10px;
-    font-size: 13px;
+    padding: 5px 10px;
+    font-size: 11px;
     float: left;
     margin: 3px 0px 3px 5px;
     font-family: sans-serif;
