@@ -42,7 +42,13 @@
         <br>
 
         <p>
-            <?= $_SESSION['statusEditarCategoria'] ?>
+            <?php
+            if (isset($_SESSION['statusEditarCategoria'])) {
+
+                echo $_SESSION['statusEditarCategoria'];
+            }
+
+            ?>
         </p>
 
     <?php if (isset($_GET['categoria'])) : ?>

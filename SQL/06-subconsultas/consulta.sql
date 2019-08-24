@@ -56,3 +56,4 @@ GROUP BY categorias.nombre;
 
 
 
+
