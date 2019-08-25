@@ -23,6 +23,21 @@ function conseguirCategorias (){
     return $status;
 }
 
+function conseguirCategoriasMenu (){
+    global  $conexion;
+    $sql = "SELECT * FROM categorias ORDER BY id DESC LIMIT 10";
+
+    $status = array();
+
+    $queryCategorias = mysqli_query($conexion, $sql);
+
+    if ($queryCategorias && mysqli_num_rows($queryCategorias) >= 1){
+        $status = $queryCategorias;
+    }
+
+    return $status;
+}
+
 function conseguirUltimasEntradas (){
     global $conexion;
     $status = array();

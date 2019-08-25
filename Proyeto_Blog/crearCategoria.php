@@ -1,8 +1,9 @@
 <?php require "header.php" ?>
 <?php require "sidebar.php" ?>
+<?php require "includes/redireccionar.php" ?>
+
 
 <div class="contenido">
-
     <div class="contenedor">
     <h1>Crear categorias.</h1>
 
@@ -22,10 +23,12 @@
 
     <div class="contenedor">
     <h1>Categorias existentes.</h1>
-        <table border="1px">
+        <table class="tablas">
             <tr>
                 <th>Item</th>
                 <th>Categorias</th>
+                <th>Eliminar Categoria</th>
+                <th>Editar Categoria</th>
             </tr>
             <?php $listarCategorias = conseguirCategorias();
 
@@ -33,8 +36,8 @@
             <tr>
                 <td> <?= $listarCategoria['id'] ?> </td>
                 <td> <?= $listarCategoria['nombre'] ?> </td>
-                <td><a href=""> Eliminar categoria </a></td>
-                <td><a href="crearCategoria.php?categoria=<?=$listarCategoria['nombre']?>"> Editar categoria </a></td>
+                <td><a href="" class="botonAzul boton-rojo"> Eliminar </a></td>
+                <td><a href="crearCategoria.php?categoria=<?=$listarCategoria['nombre']?>" class="botonAzul"> Editar </a></td>
             </tr>
             <?php endwhile; ?>
 
@@ -52,7 +55,7 @@
         </p>
 
     <?php if (isset($_GET['categoria'])) : ?>
-        <h2>Editar Categoria</h2>
+        <h1>Editar Categoria</h1>
         <form action="editarCategoria.php" method="post">
 
                 <label for="nombreCategoriaEditar">Nombre nuevo de la categoria: </label>

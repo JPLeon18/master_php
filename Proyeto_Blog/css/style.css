@@ -183,6 +183,7 @@ input[type="submit"], .botonAzul{
 .botonAzul{
     width: 130px;
     text-align: center;
+    color: white !important;
 }
 
 .boton-rojo{
@@ -254,4 +255,21 @@ footer p{
     float: left;
     margin: 3px 0px 3px 5px;
     font-family: sans-serif;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+th {
+    background-color: #02AAB0;
+    color: white;
 }

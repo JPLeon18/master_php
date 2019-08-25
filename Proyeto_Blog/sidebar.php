@@ -5,8 +5,8 @@
         <div class="bloque">
             <h3>Bienvenido, <?= $_SESSION['user_login']['nombre'].' '.$_SESSION['user_login']['apellido']; ?></h3>
             <a class="botonAzul" href="cerrarSesion.php">Editar mi perfil</a>
-            <a class="botonAzul" href="cerrarSesion.php">crear entrada</a>
-            <a class="botonAzul" href="crearCategoria.php">crear categoria</a>
+            <a class="botonAzul" href="crearEntrada.php">Crear entrada</a>
+            <a class="botonAzul" href="crearCategoria.php">Crear categoria</a>
             <a class="botonAzul boton-rojo" href="cerrarSesion.php">Cerrar sesion</a>
         </div>
     <?php endif ;?>

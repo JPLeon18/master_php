@@ -18,7 +18,7 @@
             <li><a href="index.php">INICIO</a></li>
 
 <?php
-            $categorias = conseguirCategorias();
+            $categorias = conseguirCategoriasMenu();
 
             if (!empty($categorias)) :
 
