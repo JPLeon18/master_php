@@ -54,3 +54,18 @@ function conseguirUltimasEntradas (){
 
     return $status;
 }
+
+function conseguirEntradas(){
+    global $conexion;
+    $status = array();
+
+    $sql =  "SELECT * FROM entradas ORDER BY id DESC";
+
+    $queryEntradas = mysqli_query($conexion, $sql);
+
+    if ($queryEntradas && mysqli_num_rows($queryEntradas) >= 1){
+        $status = $queryEntradas;
+    }
+
+    return $status;
+}

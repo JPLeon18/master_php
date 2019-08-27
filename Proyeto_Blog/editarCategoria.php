@@ -14,12 +14,12 @@ if (!empty($_POST['nombreCategoriaNueva']) && !empty($_POST['nombreCategoriaEdit
         header("location: crearCategoria.php");
     }
 
-    $sqlVerificarCategoriavieja = "SELECT * FROM categorias WHERE nombre = '$nombreviejo'";
+    $sqlVerificarCategoriavieja = "SELECT * FROM categorias WHERE nombre = '$nombreNuevo'";
 
     $queryVerificarCategoriaVieja = mysqli_query($conexion, $sqlVerificarCategoriavieja);
 
-    if (!$queryVerificarCategoriaVieja){
-        $_SESSION['statusEditarCategoria'] = "Categoria a editar no existe";
+    if (mysqli_num_rows($queryVerificarCategoriaVieja) >= 1){
+        $_SESSION['statusEditarCategoria'] = "El nuevo nombre ya existe por favor ingrese otro";
         header("location: crearCategoria.php");
     }
 

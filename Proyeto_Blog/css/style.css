@@ -273,3 +273,13 @@ th {
     background-color: #02AAB0;
     color: white;
 }
+
+.alertasForm{
+    color: white;
+    background: #00CDAC;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 5px 0px;
+    width: 40%;
+    text-align: center;
+}

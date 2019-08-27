@@ -13,7 +13,7 @@
 
         <?php if (isset($_SESSION['statusCategoria'])) : ?>
 
-        <p> <?= $_SESSION['statusCategoria'] ?> </p>
+        <p class="alertasForm"> <?= $_SESSION['statusCategoria']; ?> </p>
 
         <?php endif; ?>
 
@@ -27,7 +27,6 @@
             <tr>
                 <th>Item</th>
                 <th>Categorias</th>
-                <th>Eliminar Categoria</th>
                 <th>Editar Categoria</th>
             </tr>
             <?php $listarCategorias = conseguirCategorias();
@@ -36,7 +35,6 @@
             <tr>
                 <td> <?= $listarCategoria['id'] ?> </td>
                 <td> <?= $listarCategoria['nombre'] ?> </td>
-                <td><a href="" class="botonAzul boton-rojo"> Eliminar </a></td>
                 <td><a href="crearCategoria.php?categoria=<?=$listarCategoria['nombre']?>" class="botonAzul"> Editar </a></td>
             </tr>
             <?php endwhile; ?>
@@ -44,15 +42,12 @@
         </table>
         <br>
 
-        <p>
-            <?php
-            if (isset($_SESSION['statusEditarCategoria'])) {
 
-                echo $_SESSION['statusEditarCategoria'];
-            }
+        <?php
+        if (isset($_SESSION['statusEditarCategoria'])) : ?>
+            <p class="alertasForm"><?=$_SESSION['statusEditarCategoria'];?></p>
+        <?php endif; ?>
 
-            ?>
-        </p>
 
     <?php if (isset($_GET['categoria'])) : ?>
         <h1>Editar Categoria</h1>
