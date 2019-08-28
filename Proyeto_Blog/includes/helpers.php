@@ -8,7 +8,7 @@ function deleteErrors(){
     return $borrado;
 }
 
-function conseguirCategorias (){
+function conseguirCategorias(){
     global  $conexion;
     $sql = "SELECT * FROM categorias ORDER BY id ASC";
 
@@ -23,7 +23,7 @@ function conseguirCategorias (){
     return $status;
 }
 
-function conseguirCategoriasMenu (){
+function conseguirCategoriasMenu(){
     global  $conexion;
     $sql = "SELECT * FROM categorias ORDER BY id DESC LIMIT 10";
 
@@ -38,7 +38,7 @@ function conseguirCategoriasMenu (){
     return $status;
 }
 
-function conseguirUltimasEntradas (){
+function conseguirUltimasEntradas(){
     global $conexion;
     $status = array();
 
@@ -69,3 +69,4 @@ function conseguirEntradas(){
 
     return $status;
 }
+

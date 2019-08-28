@@ -43,7 +43,7 @@
         <tr>
             <td><?=$entradaone['id']?></td>
             <td><?=$entradaone['titulo']?></td>
-            <td><a href="crearEntrada.php" class="botonAzul boton-rojo">Eliminar</a></td>
+            <td><a href="crearEntrada.php?titulo=<?=$entradaone['titulo']?>&deleteid=<?=$entradaone['id']?>" class="botonAzul boton-rojo">Eliminar</a></td>
             <td><a href="crearEntrada.php?entrada=<?=$entradaone['titulo']?>&id=<?=$entradaone['id']?>" class="botonAzul">Editar</a></td>
         </tr>
         <?php endwhile; ?>
@@ -78,6 +78,7 @@
         <?php if (isset($_SESSION['statusEditarEntrada'])) : ?>
             <p class="alertasForm"><?=$_SESSION['statusEditarEntrada']?></p>
         <?php endif; ?>
+
     </div>
 </div>
 

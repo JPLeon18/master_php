@@ -6,6 +6,7 @@
     <meta charset="UTF-8">
     <title>Blog de Videojuegos</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="plugins/sw2/sweetalert2.min.css">
 </head>
 <body>
 <header class="cabecera">
