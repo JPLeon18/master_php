@@ -1,11 +1,35 @@
 <?php
 
 function deleteErrors(){
-    $_SESSION['status'] = null;
 
-    $borrado = session_unset($_SESSION['status']);
+    if (isset($_SESSION['statusNuevaEntrada'])){
+        $_SESSION['statusNuevaEntrada'] = null;
+    }
 
-    return $borrado;
+    if (isset($_SESSION['statusDeleteEntrada'])){
+        $_SESSION['statusDeleteEntrada'] = null;
+    }
+
+    if (isset($_SESSION['statusEditarEntrada'])){
+        $_SESSION['statusEditarEntrada'] = null;
+    }
+
+    if (isset($_SESSION['statusCategoria'])){
+        $_SESSION['statusCategoria'] = null;
+    }
+
+    if (isset($_SESSION['statusEditarCategoria'])){
+        $_SESSION['statusEditarCategoria'] = null;
+    }
+
+    if (isset($_SESSION['statusActualizarDatos'])){
+        $_SESSION['statusActualizarDatos'] = null;
+    }
+
+    if (isset($_SESSION['statusEditarClave'])){
+        $_SESSION['statusEditarClave'] = null;
+    }
+
 }
 
 function conseguirCategorias(){
@@ -69,4 +93,3 @@ function conseguirEntradas(){
 
     return $status;
 }
-

@@ -43,11 +43,15 @@
         <tr>
             <td><?=$entradaone['id']?></td>
             <td><?=$entradaone['titulo']?></td>
-            <td><a href="crearEntrada.php?titulo=<?=$entradaone['titulo']?>&deleteid=<?=$entradaone['id']?>" class="botonAzul boton-rojo">Eliminar</a></td>
+            <td><a href="deleteEntrada.php?deleteid=<?=$entradaone['id']?>" class="botonAzul boton-rojo">Eliminar</a></td>
             <td><a href="crearEntrada.php?entrada=<?=$entradaone['titulo']?>&id=<?=$entradaone['id']?>" class="botonAzul">Editar</a></td>
         </tr>
         <?php endwhile; ?>
     </table>
+
+        <?php if (isset($_SESSION['statusDeleteEntrada'])): ?>
+            <p class="alertasForm"><?=$_SESSION['statusDeleteEntrada']?></p>
+        <?php endif; ?>
 
     <?php if (isset($_GET['entrada'])): ?>
         <h1>Editar Entradas</h1>
@@ -80,6 +84,8 @@
         <?php endif; ?>
 
     </div>
+
+    <?php deleteErrors(); ?>
 </div>
 
 <?php require "footer.php" ?>

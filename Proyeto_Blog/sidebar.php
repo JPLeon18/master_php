@@ -4,9 +4,9 @@
     <?php if (isset($_SESSION['user_login'])) : ?>
         <div class="bloque">
             <h3>Bienvenido, <?= $_SESSION['user_login']['nombre'].' '.$_SESSION['user_login']['apellido']; ?></h3>
-            <a class="botonAzul" href="cerrarSesion.php">Editar mi perfil</a>
-            <a class="botonAzul" href="crearEntrada.php">Crear entrada</a>
-            <a class="botonAzul" href="crearCategoria.php">Crear categoria</a>
+            <a class="botonAzul" href="editarPerfil.php">Editar mi perfil</a>
+            <a class="botonAzul" href="crearEntrada.php">Entradas</a>
+            <a class="botonAzul" href="crearCategoria.php">Categorias</a>
             <a class="botonAzul boton-rojo" href="cerrarSesion.php">Cerrar sesion</a>
         </div>
     <?php endif ;?>
@@ -51,7 +51,7 @@
             <input type="password" name="password">
 
             <?php
-            if (!empty($_SESSION["status"]) && !empty($_SESSION['color'])){
+            if (isset($_SESSION["status"]) && isset($_SESSION['color'])){
                 echo "<strong style='background: ".$_SESSION['color'].";color: #fff; font-size: 13px; font-family: sans-serif; display: block;
     width: auto; margin: 10px 0px 6px 0px; padding: 5px; border-radius: 5px'>".$_SESSION['status']."</strong>";
             }

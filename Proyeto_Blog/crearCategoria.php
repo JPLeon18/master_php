@@ -64,7 +64,7 @@
         </form>
     <?php endif; ?>
     </div>
-
+    <?php deleteErrors();?>
 </div>
 
 <?php require "footer.php" ?>
