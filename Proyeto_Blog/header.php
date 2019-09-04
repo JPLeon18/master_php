@@ -26,7 +26,7 @@
                 while ($categoria = mysqli_fetch_assoc($categorias)) :
 ?>
 
-                <li><a href="categoria.php?id=<?=$categoria["id"]?>"><?=strtoupper(trim($categoria["nombre"]))?></a></li>
+                <li><a href="entradasPorCategoria.php?id=<?=$categoria["id"]?>"><?=strtoupper(trim($categoria["nombre"]))?></a></li>
 
 <?php
                 endwhile;

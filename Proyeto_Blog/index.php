@@ -7,13 +7,13 @@
 
         <?php
 
-        $entradas = conseguirUltimasEntradas();
+        $entradas = conseguirEntradas(null, null, true);
     if (!empty($entradas)) :
         while ($entrada = mysqli_fetch_assoc($entradas)) :
         ?>
 
             <article class="articulo">
-                <a href="">
+                <a href="entrada.php?idEntrada=<?=$entrada['id']?>">
                     <h2><?= strtoupper($entrada["titulo"]) ?></h2>
                     <h3 class="categoriaEntrada"> Categoria: <?= $entrada["nombre"] ?> </h3>
                     <h3 class="categoriaEntrada"> Fecha: <?= $entrada["fecha"] ?> </h3>
@@ -28,7 +28,7 @@
         ?>
 
         <div class="verTodo">
-            <a href="">Ver todo...</a>
+            <a href="entradasCompletas.php">Ver todo...</a>
         </div>
 
 

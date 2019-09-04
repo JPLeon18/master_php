@@ -62,28 +62,26 @@ function conseguirCategoriasMenu(){
     return $status;
 }
 
-function conseguirUltimasEntradas(){
+function conseguirEntradas($categoria = null, $entrada = null, $limit = null){
     global $conexion;
     $status = array();
 
-    $sql =  "SELECT e.*, c.* FROM entradas e ".
-            "INNER JOIN categorias c ON e.categoria_id = c.id ".
-            "ORDER BY e.id DESC LIMIT 4";
+    $sql =  "SELECT e.*, c.id AS idCategoria, c.nombre FROM entradas e ".
+            "INNER JOIN categorias c ON e.categoria_id = c.id ";
 
-    $queryEntradas = mysqli_query($conexion, $sql);
-
-    if ($queryEntradas && mysqli_num_rows($queryEntradas) >= 1){
-        $status = $queryEntradas;
+    if (!empty($categoria)){
+        $sql .= "WHERE c.id =  $categoria ";
     }
 
-    return $status;
-}
+    if (!empty($entrada)){
+        $sql .= "WHERE e.id =  $entrada ";
+    }
 
-function conseguirEntradas(){
-    global $conexion;
-    $status = array();
+    $sql .= "ORDER BY id DESC ";
 
-    $sql =  "SELECT * FROM entradas ORDER BY id DESC";
+    if ($limit){
+        $sql .= "LIMIT 4 ";
+    }
 
     $queryEntradas = mysqli_query($conexion, $sql);
 
