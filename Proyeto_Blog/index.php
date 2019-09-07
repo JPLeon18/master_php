@@ -17,6 +17,7 @@
                     <h2><?= strtoupper($entrada["titulo"]) ?></h2>
                     <h3 class="categoriaEntrada"> Categoria: <?= $entrada["nombre"] ?> </h3>
                     <h3 class="categoriaEntrada"> Fecha: <?= $entrada["fecha"] ?> </h3>
+                    <h3 class="categoriaEntrada"> subido por: <?= $entrada["usuario"] ?> </h3>
                     <div class="clearfix"></div>
                     <p><?= substr($entrada["descripcion"], 0, 300) ?>...</p>
                 </a>

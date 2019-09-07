@@ -8,6 +8,8 @@ if (isset($_GET['deleteid'])){
     $idEntrada = mysqli_real_escape_string($conexion, $_GET['deleteid']);
     $_SESSION['statusDeleteEntrada'] = "ok";
 
+    $usuarioId = $_SESSION['user_login']['id'];
+
     if (!is_numeric($idEntrada)){
         $_SESSION['statusDeleteEntrada'] = "Error al eliminar la entrada";
         header("location:crearEntrada.php");
@@ -28,7 +30,7 @@ if (isset($_GET['deleteid'])){
 
 if ($_SESSION['statusDeleteEntrada'] == "ok") {
 
-    $sqlDeleteEntrada = "DELETE FROM entradas WHERE id = $idEntrada";
+    $sqlDeleteEntrada = "DELETE FROM entradas WHERE id = $idEntrada AND usuario_id = $usuarioId ";
 
     $queryDeleteEntrada = mysqli_query($conexion, $sqlDeleteEntrada);
 

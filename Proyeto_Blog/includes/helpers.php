@@ -66,8 +66,9 @@ function conseguirEntradas($categoria = null, $entrada = null, $limit = null){
     global $conexion;
     $status = array();
 
-    $sql =  "SELECT e.*, c.id AS idCategoria, c.nombre FROM entradas e ".
-            "INNER JOIN categorias c ON e.categoria_id = c.id ";
+    $sql =  "SELECT e.*, c.id AS idCategoria, c.nombre, CONCAT(u.nombre, ' ', u.apellido) AS usuario FROM entradas e ".
+            "INNER JOIN categorias c ON e.categoria_id = c.id ".
+            "INNER JOIN usuarios u ON u.id = e.usuario_id ";
 
     if (!empty($categoria)){
         $sql .= "WHERE c.id =  $categoria ";
@@ -82,6 +83,22 @@ function conseguirEntradas($categoria = null, $entrada = null, $limit = null){
     if ($limit){
         $sql .= "LIMIT 4 ";
     }
+
+    $queryEntradas = mysqli_query($conexion, $sql);
+
+    if ($queryEntradas && mysqli_num_rows($queryEntradas) >= 1){
+        $status = $queryEntradas;
+    }
+
+    return $status;
+}
+
+function conseguirEntradasTabla($user){
+    global $conexion;
+    $status = array();
+
+    $sql =  "SELECT * FROM entradas ".
+            "WHERE usuario_id IN (SELECT id FROM usuarios WHERE id = $user) ";
 
     $queryEntradas = mysqli_query($conexion, $sql);
 

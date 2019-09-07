@@ -16,6 +16,7 @@ require "sidebar.php";
             <h2><?= strtoupper($entradaC['titulo']) ?></h2>
             <h3 class="categoriaEntrada"><?= $entradaC['nombre'] ?></h3>
             <h3 class="categoriaEntrada"><?= $entradaC['fecha'] ?></h3>
+            <h3 class="categoriaEntrada"> subido por: <?= $entradaC["usuario"] ?> </h3>
             <div class="clearfix"></div>
             <p><?= substr($entradaC['descripcion'], 0, 300) ?>...</p>
         </a>

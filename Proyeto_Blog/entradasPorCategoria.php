@@ -5,10 +5,15 @@ require "sidebar.php";
 if (isset($_GET['id'])):
     $idCategoria = $_GET['id'];
 
-    if (empty(conseguirEntradas($idCategoria, null, null))){
-        header("location: index.php");
-    }
 ?>
+
+    <?php if (empty(conseguirEntradas($idCategoria, null, null))): ?>
+    <div class="contenido">
+        <div class="contenedor"><h1>No Hay entradas para mostrar</h1></div>
+    </div>
+
+    <?php else: ?>
+
 
     <div class="contenido">
 
@@ -29,5 +34,7 @@ if (isset($_GET['id'])):
                 </article>
             <?php endwhile; ?>
     </div>
+
+<?php endif; ?>
 <?php endif; ?>
 <?php require "footer.php"; ?>

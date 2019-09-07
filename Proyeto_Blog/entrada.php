@@ -18,6 +18,7 @@ if (isset($_GET['idEntrada'])) :
                 <h1><?= strtoupper($entradaA['titulo']) ?></h1>
                 <h2 class="categoriaEntrada"><?= $entradaA['nombre'] ?></h2>
                 <h2 class="categoriaEntrada"><?= $entradaA['fecha'] ?></h2>
+                <h2 class="categoriaEntrada"> subido por: <?= $entradaA["usuario"] ?> </h2>
                 <div class="clearfix"></div>
                 <p><?= $entradaA['descripcion'] ?></p>
 

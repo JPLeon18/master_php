@@ -38,7 +38,7 @@
             <th>Editar</th>
         </tr>
 
-        <?php $entradasAll = conseguirEntradas();
+        <?php $entradasAll = conseguirEntradasTabla($_SESSION['user_login']['id']);
         while ($entradaone = mysqli_fetch_assoc($entradasAll)) :  ?>
         <tr>
             <td><?=$entradaone['id']?></td>

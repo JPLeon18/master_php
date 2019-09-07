@@ -10,7 +10,7 @@ if (!empty($_POST['titulo']) && !empty($_POST['descripcion']) && !empty($_POST['
     $categoriaEntrada = mysqli_real_escape_string($conexion, $_POST['categoria']);
     $entradavieja = mysqli_real_escape_string($conexion, $_POST['entradavieja']);
     $_SESSION['statusEditarEntrada'] = "ok";
-
+    $usuarioId = $_SESSION['user_login']['id'];
 
     if (empty($titulo) || strlen($titulo) > 50){
         $_SESSION['statusEditarEntrada'] = "Error al ingresar el titulo";
@@ -37,7 +37,7 @@ if (!empty($_POST['titulo']) && !empty($_POST['descripcion']) && !empty($_POST['
 header("location: crearEntrada.php");
 
 if ($_SESSION['statusEditarEntrada'] == "ok"){
-    $sqlUpdateEntrada = "UPDATE entradas SET titulo = '$titulo', descripcion = '$descripcion', categoria_id = $categoriaEntrada WHERE id = $entradavieja";
+    $sqlUpdateEntrada = "UPDATE entradas SET titulo = '$titulo', descripcion = '$descripcion', categoria_id = $categoriaEntrada WHERE id = $entradavieja AND usuario_id = $usuarioId ";
 
     $queryUpdateEntrada = mysqli_query($conexion, $sqlUpdateEntrada);
 
