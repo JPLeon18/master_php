@@ -62,7 +62,7 @@ function conseguirCategoriasMenu(){
     return $status;
 }
 
-function conseguirEntradas($categoria = null, $entrada = null, $limit = null){
+function conseguirEntradas($categoria = null, $entrada = null, $limit = null, $buscar = null){
     global $conexion;
     $status = array();
 
@@ -78,11 +78,16 @@ function conseguirEntradas($categoria = null, $entrada = null, $limit = null){
         $sql .= "WHERE e.id =  $entrada ";
     }
 
+    if (!empty($buscar)){
+        $sql .= "WHERE e.titulo LIKE '%$buscar%' ";
+    }
+
     $sql .= "ORDER BY id DESC ";
 
     if ($limit){
         $sql .= "LIMIT 4 ";
     }
+
 
     $queryEntradas = mysqli_query($conexion, $sql);
 

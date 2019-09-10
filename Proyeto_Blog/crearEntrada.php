@@ -39,12 +39,12 @@
         </tr>
 
         <?php $entradasAll = conseguirEntradasTabla($_SESSION['user_login']['id']);
-        while ($entradaone = mysqli_fetch_assoc($entradasAll)) :  ?>
+        while ($entradaone = mysqli_fetch_assoc($entradasAll)) :    ?>
         <tr>
             <td><?=$entradaone['id']?></td>
             <td><?=$entradaone['titulo']?></td>
             <td><a href="deleteEntrada.php?deleteid=<?=$entradaone['id']?>" class="botonAzul boton-rojo">Eliminar</a></td>
-            <td><a href="crearEntrada.php?entrada=<?=$entradaone['titulo']?>&id=<?=$entradaone['id']?>" class="botonAzul">Editar</a></td>
+            <td><a href="crearEntrada.php?entrada=<?=$entradaone['titulo']?>&id=<?=$entradaone['id']?>&descripcion=<?=$entradaone['descripcion']?>&categoria_id=<?=$entradaone['categoria_id']?>" class="botonAzul">Editar</a></td>
         </tr>
         <?php endwhile; ?>
     </table>
@@ -53,20 +53,20 @@
             <p class="alertasForm"><?=$_SESSION['statusDeleteEntrada']?></p>
         <?php endif; ?>
 
-    <?php if (isset($_GET['entrada'])): ?>
+    <?php if (isset($_GET['entrada']) && isset($_GET['id']) && isset($_GET['descripcion'])): ?>
         <h1>Editar Entradas</h1>
         <form action="editarEntrada.php" method="post">
             <label for="titulo">Nuevo Titulo:</label>
-            <input type="text" name="titulo">
+            <input type="text" name="titulo" value="<?= $_GET['entrada'] ?>">
 
             <label for="descripcion">Nueva Descripcion:</label>
-            <textarea name="descripcion" id="" cols="92" rows="10"></textarea>
+            <textarea name="descripcion" id="" cols="92" rows="10"><?=$_GET['descripcion']?></textarea>
 
             <label for="categoria">Nueva Categoria:</label>
             <select name="categoria" id="">
                 <?php $consultaCategorias = conseguirCategorias();
                 while ($consultaCategoria = mysqli_fetch_assoc($consultaCategorias)) : ?>
-                    <option value="<?=$consultaCategoria['id']?>"><?=$consultaCategoria['nombre']?></option>
+                    <option value="<?=$consultaCategoria['id']?>"<?= ($consultaCategoria['id'] == $_GET['categoria_id']) ? 'selected="selected"' : '' ?>><?=$consultaCategoria['nombre']?></option>
                 <?php endwhile; ?>
             </select>
 

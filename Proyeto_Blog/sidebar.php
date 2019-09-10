@@ -1,6 +1,17 @@
 
 <aside class="sidebar">
 
+    <div class="bloque">
+        <p>Ingresar el titulo de una entrada para buscarla</p>
+
+        <form action="busqueda.php" method="post">
+            <input type="text" name="busqueda" placeholder="Buscar entrada..." required="required">
+
+            <input type="submit" value="Buscar 🔍">
+        </form>
+    </div>
+
+
     <?php if (isset($_SESSION['user_login'])) : ?>
         <div class="bloque">
             <h3>Bienvenido, <?= $_SESSION['user_login']['nombre'].' '.$_SESSION['user_login']['apellido']; ?></h3>
