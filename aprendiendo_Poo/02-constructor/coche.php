@@ -43,5 +43,17 @@ class Coche
     public function getVelocidad(){
         return $this->velocidad;
     }
+
+    public function mostrarInfo(Coche $miObjeto){
+        $info = "<h2>Informacion del Coche</h2>";
+        $info .= "<p>color: ".$miObjeto->color."</p>";
+        $info .= "<p>cilindraje: ".$miObjeto->cilindraje."</p>";
+        $info .= "<p>modelo: ".$miObjeto->modelo."</p>";
+        $info .= "<p>marca: ".$miObjeto->marca."</p>";
+        $info .= "<p>velocidad : ".$miObjeto->velocidad."</p>";
+
+        return $info;
+
+    }
 }
 
